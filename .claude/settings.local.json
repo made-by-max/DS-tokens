@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk '/\\\\\"component\\\\\":/,0' /Users/stacytaylor/sites/_design-system/tokens.json)",
+      "Bash(python3 *)",
+      "Bash(node *)"
+    ]
+  }
+}
