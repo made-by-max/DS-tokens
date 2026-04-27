@@ -3,7 +3,11 @@
     "allow": [
       "Bash(awk '/\\\\\"component\\\\\":/,0' /Users/stacytaylor/sites/_design-system/tokens.json)",
       "Bash(python3 *)",
-      "Bash(node *)"
+      "Bash(node *)",
+      "Bash(gh api *)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/made-by-max/DS-tokens/main/dist/base.css\")",
+      "Bash(npm install *)",
+      "Bash(npx storybook *)"
     ]
   }
 }
