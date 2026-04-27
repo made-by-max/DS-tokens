@@ -1,8 +1,8 @@
 /* ================================================================
  * Design System — CSS Custom Properties
  * Theme   : dark
- * Tokens  : 587 total, 71 overridden
- * Built   : 2026-04-23 21:30:30 UTC
+ * Tokens  : 525 total, 64 overridden
+ * Built   : 2026-04-27 19:02:30 UTC
  * Source  : tokens.json + themes/dark-mode.json
  * Usage  : Standalone dark theme —
  *            <link rel="stylesheet" href="dark.css">
@@ -43,21 +43,6 @@
   --red-10-hsl: 0 65% 42%;
   --red-11-hsl: 0 65% 36%;
   --red-12-hsl: 0 66% 30%;
-
-  /* ── primitives › colors › pink ── */
-  --pink-0-hsl: 336 100% 97%;
-  --pink-1-hsl: 336 100% 94%;
-  --pink-2-hsl: 338 91% 87%;
-  --pink-3-hsl: 339 90% 81%;
-  --pink-4-hsl: 339 88% 74%;
-  --pink-5-hsl: 339 82% 67%;
-  --pink-6-hsl: 339 76% 59%;
-  --pink-7-hsl: 339 67% 52%;
-  --pink-8-hsl: 339 68% 45%;
-  --pink-9-hsl: 339 69% 38%;
-  --pink-10-hsl: 339 70% 32%;
-  --pink-11-hsl: 339 69% 27%;
-  --pink-12-hsl: 339 70% 21%;
 
   /* ── primitives › colors › indigo ── */
   --indigo-0-hsl: 223 100% 96%;
@@ -147,16 +132,16 @@
   --font-letterspacing-5: .500em;
   --font-letterspacing-6: .750em;
   --font-letterspacing-7: 1em;
-  --font-size-00: .5rem;
-  --font-size-0: .75rem;
+  --font-size-00: .75rem;
+  --font-size-0: .875rem;
   --font-size-1: 1rem;
-  --font-size-2: 1.1rem;
-  --font-size-3: 1.25rem;
-  --font-size-4: 1.5rem;
-  --font-size-5: 2rem;
-  --font-size-6: 2.5rem;
-  --font-size-7: 3rem;
-  --font-size-8: 3.5rem;
+  --font-size-2: 1.25rem;
+  --font-size-3: 1.5rem;
+  --font-size-4: 2rem;
+  --font-size-5: 2.5rem;
+  --font-size-6: 3rem;
+  --font-size-7: 3.5rem;
+  --font-size-8: 4rem;
   --font-size-fluid-0: clamp(.75rem, 2vw, 1rem);
   --font-size-fluid-1: clamp(1rem, 4vw, 1.5rem);
   --font-size-fluid-2: clamp(1.5rem, 6vw, 2.5rem);
@@ -194,14 +179,11 @@
   /* ── primitives › borders ── */
   --border-size-1: 1px;
   --border-size-2: 2px;
-  --border-size-3: 5px;
-  --border-size-4: 10px;
-  --border-size-5: 25px;
   --radius-1: 2px;
-  --radius-2: 5px;
-  --radius-3: 1rem;
-  --radius-4: 2rem;
-  --radius-5: 4rem;
+  --radius-2: 4px;
+  --radius-3: 8px;
+  --radius-4: 16px;
+  --radius-5: 20px;
   --radius-6: 8rem;
 
   /* ── primitives › shadows ── */
@@ -232,7 +214,6 @@
   --color-background-inverse: hsl(var(--neutral-0-hsl));
   --color-background-disabled: hsl(var(--neutral-9-hsl));
   --color-background-primary: hsl(var(--indigo-10-hsl));
-  --color-background-secondary: hsl(var(--pink-10-hsl));
   --color-background-danger: hsl(var(--red-10-hsl));
   --color-background-success: hsl(var(--green-10-hsl));
   --color-background-warning: hsl(var(--yellow-10-hsl));
@@ -264,8 +245,6 @@
   --color-border-warning: hsl(var(--yellow-5-hsl));
   --color-border-information: hsl(var(--blue-5-hsl));
   --color-border-primary-subtle: hsl(var(--indigo-8-hsl));
-  --color-border-secondary-subtle: hsl(var(--pink-8-hsl));
-  --color-border-secondary-focus: hsl(var(--pink-5-hsl));
   --color-border-danger-subtle: hsl(var(--red-8-hsl));
   --color-border-success-subtle: hsl(var(--green-7-hsl));
   --color-border-information-subtle: hsl(var(--blue-8-hsl));
@@ -277,10 +256,6 @@
   --color-interactive-primary-hover: hsl(var(--indigo-4-hsl));
   --color-interactive-primary-active: hsl(var(--indigo-2-hsl));
   --color-interactive-primary-focus-ring: hsl(var(--indigo-9-hsl));
-  --color-interactive-secondary-default: hsl(var(--pink-6-hsl));
-  --color-interactive-secondary-hover: hsl(var(--pink-5-hsl));
-  --color-interactive-secondary-active: hsl(var(--pink-2-hsl));
-  --color-interactive-secondary-focus-ring: hsl(var(--pink-9-hsl));
   --color-interactive-danger-default: hsl(var(--red-6-hsl));
   --color-interactive-danger-hover: hsl(var(--red-5-hsl));
   --color-interactive-danger-active: hsl(var(--red-2-hsl));
@@ -317,7 +292,7 @@
   --font-family-mono: var(--font-monospace);
 
   /* ── semantic › font-size ── */
-  --font-size-caption: var(--font-size-0);
+  --font-size-caption: var(--font-size-00);
   --font-size-body-sm: var(--font-size-0);
   --font-size-body: var(--font-size-1);
   --font-size-body-lg: var(--font-size-2);
@@ -348,11 +323,12 @@
   --letter-spacing-widest: var(--font-letterspacing-4);
 
   /* ── semantic › border-radius ── */
-  --border-radius-sm: var(--radius-1);
-  --border-radius-md: var(--radius-2);
-  --border-radius-lg: var(--radius-3);
-  --border-radius-xl: var(--radius-4);
-  --border-radius-full: var(--radius-5);
+  --border-radius-xs: var(--radius-1);
+  --border-radius-sm: var(--radius-2);
+  --border-radius-md: var(--radius-3);
+  --border-radius-lg: var(--radius-4);
+  --border-radius-xl: var(--radius-5);
+  --border-radius-full: var(--radius-6);
 
   /* ── semantic › border-width ── */
   --border-width-sm: var(--border-size-1);
@@ -369,7 +345,7 @@
 
   /* ── component › typography › h1 ── */
   --typography-h1-font: var(--font-family-sans);
-  --typography-h1-size: var(--font-size-display-sm);
+  --typography-h1-size: var(--font-size-heading-lg);
   --typography-h1-weight: var(--font-weight-bold);
   --typography-h1-line-height: var(--line-height-tight);
   --typography-h1-color: var(--color-text-primary);
@@ -377,7 +353,7 @@
 
   /* ── component › typography › h2 ── */
   --typography-h2-font: var(--font-family-sans);
-  --typography-h2-size: var(--font-size-heading-lg);
+  --typography-h2-size: var(--font-size-heading-md);
   --typography-h2-weight: var(--font-weight-bold);
   --typography-h2-line-height: var(--line-height-tight);
   --typography-h2-color: var(--color-text-primary);
@@ -385,7 +361,7 @@
 
   /* ── component › typography › h3 ── */
   --typography-h3-font: var(--font-family-sans);
-  --typography-h3-size: var(--font-size-heading-md);
+  --typography-h3-size: var(--font-size-heading-sm);
   --typography-h3-weight: var(--font-weight-semibold);
   --typography-h3-line-height: var(--line-height-snug);
   --typography-h3-color: var(--color-text-primary);
@@ -431,6 +407,22 @@
   --typography-caption-color: var(--color-text-secondary);
   --typography-caption-letter-spacing: var(--letter-spacing-wide);
 
+  /* ── component › typography › label ── */
+  --typography-body-sm-font: var(--font-family-sans);
+  --typography-body-sm-size: var(--font-size-body-sm);
+  --typography-body-sm-weight: var(--font-weight-medium);
+  --typography-body-sm-line-height: var(--line-height-snug);
+  --typography-body-sm-color: var(--color-text-secondary);
+  --typography-body-sm-letter-spacing: var(--letter-spacing-normal);
+
+  /* ── component › typography › button ── */
+  --typography-body-sm-font: var(--font-family-sans);
+  --typography-body-sm-size: var(--font-size-body-sm);
+  --typography-body-sm-weight: var(--font-weight-medium);
+  --typography-body-sm-line-height: var(--line-height-snug);
+  --typography-body-sm-color: var(--color-text-secondary);
+  --typography-body-sm-letter-spacing: var(--letter-spacing-normal);
+
   /* ── component › button › primary ── */
   --button-primary-bg-idle: var(--color-interactive-primary-default);
   --button-primary-bg-hover: var(--color-interactive-primary-hover);
@@ -448,24 +440,6 @@
   --button-primary-border-active: var(--color-interactive-primary-active);
   --button-primary-border-disabled: var(--color-border-disabled);
   --button-primary-ring-focus: var(--color-interactive-primary-focus-ring);
-
-  /* ── component › button › secondary ── */
-  --button-secondary-bg-idle: var(--color-interactive-secondary-default);
-  --button-secondary-bg-hover: var(--color-interactive-secondary-hover);
-  --button-secondary-bg-focus: var(--color-interactive-secondary-default);
-  --button-secondary-bg-active: var(--color-interactive-secondary-active);
-  --button-secondary-bg-disabled: var(--color-background-disabled);
-  --button-secondary-text-idle: var(--color-text-on-primary);
-  --button-secondary-text-hover: var(--color-text-on-primary);
-  --button-secondary-text-focus: var(--color-text-on-primary);
-  --button-secondary-text-active: var(--color-text-on-primary);
-  --button-secondary-text-disabled: var(--color-text-disabled);
-  --button-secondary-border-idle: var(--color-interactive-secondary-default);
-  --button-secondary-border-hover: var(--color-interactive-secondary-hover);
-  --button-secondary-border-focus: var(--color-border-secondary-focus);
-  --button-secondary-border-active: var(--color-interactive-secondary-active);
-  --button-secondary-border-disabled: var(--color-border-disabled);
-  --button-secondary-ring-focus: var(--color-interactive-secondary-focus-ring);
 
   /* ── component › button › danger ── */
   --button-danger-bg-idle: var(--color-interactive-danger-default);
@@ -615,15 +589,6 @@
   --card-primary-text-heading: var(--color-interactive-primary-active);
   --card-primary-text-body: var(--color-interactive-primary-hover);
 
-  /* ── component › card › secondary ── */
-  --card-secondary-bg: var(--color-background-secondary);
-  --card-secondary-border: var(--color-border-secondary-subtle);
-  --card-secondary-shadow: var(--shadow-sm);
-  --card-secondary-radius: var(--border-radius-lg);
-  --card-secondary-padding: var(--spacing-lg);
-  --card-secondary-text-heading: var(--color-interactive-secondary-active);
-  --card-secondary-text-body: var(--color-interactive-secondary-active);
-
   /* ── component › card › danger ── */
   --card-danger-bg: var(--color-background-danger);
   --card-danger-border: var(--color-border-danger-subtle);
@@ -637,11 +602,6 @@
   --badge-primary-bg: var(--color-background-primary);
   --badge-primary-text: var(--color-interactive-primary-active);
   --badge-primary-border: var(--color-border-primary-subtle);
-
-  /* ── component › badge › secondary ── */
-  --badge-secondary-bg: var(--color-background-secondary);
-  --badge-secondary-text: var(--color-interactive-secondary-active);
-  --badge-secondary-border: var(--color-border-secondary-subtle);
 
   /* ── component › badge › danger ── */
   --badge-danger-bg: var(--color-background-danger);
@@ -678,22 +638,6 @@
   --checkbox-primary-check-checked: var(--color-text-on-primary);
   --checkbox-primary-check-disabled: var(--color-text-disabled);
   --checkbox-primary-ring-focus: var(--color-interactive-primary-focus-ring);
-
-  /* ── component › checkbox › secondary ── */
-  --checkbox-secondary-bg-idle: var(--color-background-default);
-  --checkbox-secondary-bg-hover: var(--color-background-secondary);
-  --checkbox-secondary-bg-checked: var(--color-interactive-secondary-default);
-  --checkbox-secondary-bg-focus: var(--color-background-default);
-  --checkbox-secondary-bg-disabled: var(--color-background-disabled);
-  --checkbox-secondary-border-idle: var(--color-border-control);
-  --checkbox-secondary-border-hover: var(--color-border-secondary-focus);
-  --checkbox-secondary-border-checked: var(--color-interactive-secondary-default);
-  --checkbox-secondary-border-focus: var(--color-border-secondary-focus);
-  --checkbox-secondary-border-disabled: var(--color-border-disabled);
-  --checkbox-secondary-check-idle: transparent;
-  --checkbox-secondary-check-checked: var(--color-text-on-primary);
-  --checkbox-secondary-check-disabled: var(--color-text-disabled);
-  --checkbox-secondary-ring-focus: var(--color-interactive-secondary-focus-ring);
 
   /* ── component › checkbox › danger ── */
   --checkbox-danger-bg-idle: var(--color-background-default);

@@ -25,7 +25,6 @@
         "--color-background-inverse":     "hsl(var(--neutral-0-hsl))",
         "--color-background-disabled":    "hsl(var(--neutral-9-hsl))",
         "--color-background-primary":     "hsl(var(--indigo-10-hsl))",
-        "--color-background-secondary":   "hsl(var(--pink-10-hsl))",
         "--color-background-danger":      "hsl(var(--red-10-hsl))",
         "--color-background-success":     "hsl(var(--green-10-hsl))",
         "--color-background-warning":     "hsl(var(--yellow-10-hsl))",
@@ -60,8 +59,6 @@
         "--color-border-information":       "hsl(var(--blue-5-hsl))",
 
         "--color-border-primary-subtle":    "hsl(var(--indigo-8-hsl))",
-        "--color-border-secondary-subtle":  "hsl(var(--pink-8-hsl))",
-        "--color-border-secondary-focus":   "hsl(var(--pink-5-hsl))",
         "--color-border-danger-subtle":     "hsl(var(--red-8-hsl))",
         "--color-border-success-subtle":    "hsl(var(--green-7-hsl))",
         "--color-border-information-subtle":"hsl(var(--blue-8-hsl))",
@@ -75,11 +72,6 @@
         "--color-interactive-primary-hover":      "hsl(var(--indigo-4-hsl))",
         "--color-interactive-primary-active":     "hsl(var(--indigo-2-hsl))",
         "--color-interactive-primary-focus-ring": "hsl(var(--indigo-9-hsl))",
-
-        "--color-interactive-secondary-default":    "hsl(var(--pink-6-hsl))",
-        "--color-interactive-secondary-hover":      "hsl(var(--pink-5-hsl))",
-        "--color-interactive-secondary-active":     "hsl(var(--pink-2-hsl))",
-        "--color-interactive-secondary-focus-ring": "hsl(var(--pink-9-hsl))",
 
         "--color-interactive-danger-default":    "hsl(var(--red-6-hsl))",
         "--color-interactive-danger-hover":      "hsl(var(--red-5-hsl))",
