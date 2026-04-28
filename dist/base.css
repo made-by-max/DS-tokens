@@ -4,649 +4,779 @@
  * Tokens  : 525 total
  * Built   : 2026-04-27 19:02:30 UTC
  * Source  : tokens.json
- * Usage  : <link rel="stylesheet" href="base.css">
+ * Usage  : <link rel=stylesheet href=base.css>
  * Do not edit — regenerate with: node build.js
  * ================================================================ */
 
 :root {
-  /* ── primitives › colors › neutral ── */
-  --neutral-0-hsl: 200 27% 98%;
-  --neutral-1-hsl: 210 18% 96%;
-  --neutral-2-hsl: 210 11% 93%;
-  --neutral-3-hsl: 192 9% 89%;
-  --neutral-4-hsl: 197 8% 83%;
-  --neutral-5-hsl: 202 5% 71%;
-  --neutral-6-hsl: 200 3% 60%;
-  --neutral-7-hsl: 180 2% 50%;
-  --neutral-8-hsl: 160 1% 41%;
-  --neutral-9-hsl: 90 1% 31%;
-  --neutral-10-hsl: 60 3% 22%;
-  --neutral-11-hsl: 60 6% 14%;
-  --neutral-12-hsl: 60 6% 7%;
+    /* ── primitives › colors › neutral ── */
+    --neutral-0-hsl: 200 27% 98%;
+    --neutral-1-hsl: 210 18% 96%;
+    --neutral-2-hsl: 210 11% 93%;
+    --neutral-3-hsl: 192 9% 89%;
+    --neutral-4-hsl: 197 8% 83%;
+    --neutral-5-hsl: 202 5% 71%;
+    --neutral-6-hsl: 200 3% 60%;
+    --neutral-7-hsl: 180 2% 50%;
+    --neutral-8-hsl: 160 1% 41%;
+    --neutral-9-hsl: 90 1% 31%;
+    --neutral-10-hsl: 60 3% 22%;
+    --neutral-11-hsl: 60 6% 14%;
+    --neutral-12-hsl: 60 6% 7%;
 
-  /* ── primitives › colors › red ── */
-  --red-0-hsl: 0 100% 98%;
-  --red-1-hsl: 0 100% 95%;
-  --red-2-hsl: 0 100% 89%;
-  --red-3-hsl: 0 100% 83%;
-  --red-4-hsl: 0 100% 76%;
-  --red-5-hsl: 0 100% 71%;
-  --red-6-hsl: 0 94% 65%;
-  --red-7-hsl: 0 86% 59%;
-  --red-8-hsl: 0 74% 54%;
-  --red-9-hsl: 0 65% 48%;
-  --red-10-hsl: 0 65% 42%;
-  --red-11-hsl: 0 65% 36%;
-  --red-12-hsl: 0 66% 30%;
+    /* ── primitives › colors › red ── */
+    --red-0-hsl: 0 100% 98%;
+    --red-1-hsl: 0 100% 95%;
+    --red-2-hsl: 0 100% 89%;
+    --red-3-hsl: 0 100% 83%;
+    --red-4-hsl: 0 100% 76%;
+    --red-5-hsl: 0 100% 71%;
+    --red-6-hsl: 0 94% 65%;
+    --red-7-hsl: 0 86% 59%;
+    --red-8-hsl: 0 74% 54%;
+    --red-9-hsl: 0 65% 48%;
+    --red-10-hsl: 0 65% 42%;
+    --red-11-hsl: 0 65% 36%;
+    --red-12-hsl: 0 66% 30%;
 
-  /* ── primitives › colors › indigo ── */
-  --indigo-0-hsl: 223 100% 96%;
-  --indigo-1-hsl: 225 100% 93%;
-  --indigo-2-hsl: 228 100% 86%;
-  --indigo-3-hsl: 228 100% 78%;
-  --indigo-4-hsl: 228 96% 72%;
-  --indigo-5-hsl: 228 94% 67%;
-  --indigo-6-hsl: 228 89% 63%;
-  --indigo-7-hsl: 228 81% 59%;
-  --indigo-8-hsl: 228 69% 55%;
-  --indigo-9-hsl: 230 57% 50%;
-  --indigo-10-hsl: 230 57% 43%;
-  --indigo-11-hsl: 230 57% 37%;
-  --indigo-12-hsl: 230 57% 30%;
+    /* ── primitives › colors › indigo ── */
+    --indigo-0-hsl: 223 100% 96%;
+    --indigo-1-hsl: 225 100% 93%;
+    --indigo-2-hsl: 228 100% 86%;
+    --indigo-3-hsl: 228 100% 78%;
+    --indigo-4-hsl: 228 96% 72%;
+    --indigo-5-hsl: 228 94% 67%;
+    --indigo-6-hsl: 228 89% 63%;
+    --indigo-7-hsl: 228 81% 59%;
+    --indigo-8-hsl: 228 69% 55%;
+    --indigo-9-hsl: 230 57% 50%;
+    --indigo-10-hsl: 230 57% 43%;
+    --indigo-11-hsl: 230 57% 37%;
+    --indigo-12-hsl: 230 57% 30%;
 
-  /* ── primitives › colors › green ── */
-  --green-0-hsl: 131 67% 95%;
-  --green-1-hsl: 128 76% 90%;
-  --green-2-hsl: 128 71% 82%;
-  --green-3-hsl: 129 68% 73%;
-  --green-4-hsl: 130 61% 64%;
-  --green-5-hsl: 130 57% 56%;
-  --green-6-hsl: 131 50% 50%;
-  --green-7-hsl: 131 53% 46%;
-  --green-8-hsl: 131 54% 40%;
-  --green-9-hsl: 132 52% 35%;
-  --green-10-hsl: 132 52% 29%;
-  --green-11-hsl: 132 53% 22%;
-  --green-12-hsl: 131 53% 16%;
+    /* ── primitives › colors › green ── */
+    --green-0-hsl: 131 67% 95%;
+    --green-1-hsl: 128 76% 90%;
+    --green-2-hsl: 128 71% 82%;
+    --green-3-hsl: 129 68% 73%;
+    --green-4-hsl: 130 61% 64%;
+    --green-5-hsl: 130 57% 56%;
+    --green-6-hsl: 131 50% 50%;
+    --green-7-hsl: 131 53% 46%;
+    --green-8-hsl: 131 54% 40%;
+    --green-9-hsl: 132 52% 35%;
+    --green-10-hsl: 132 52% 29%;
+    --green-11-hsl: 132 53% 22%;
+    --green-12-hsl: 131 53% 16%;
 
-  /* ── primitives › colors › yellow ── */
-  --yellow-0-hsl: 50 100% 93%;
-  --yellow-1-hsl: 49 100% 87%;
-  --yellow-2-hsl: 49 100% 80%;
-  --yellow-3-hsl: 48 100% 70%;
-  --yellow-4-hsl: 47 100% 62%;
-  --yellow-5-hsl: 45 97% 54%;
-  --yellow-6-hsl: 42 96% 50%;
-  --yellow-7-hsl: 39 100% 48%;
-  --yellow-8-hsl: 35 100% 47%;
-  --yellow-9-hsl: 31 100% 45%;
-  --yellow-10-hsl: 31 100% 35%;
-  --yellow-11-hsl: 31 100% 25%;
-  --yellow-12-hsl: 31 100% 20%;
+    /* ── primitives › colors › yellow ── */
+    --yellow-0-hsl: 50 100% 93%;
+    --yellow-1-hsl: 49 100% 87%;
+    --yellow-2-hsl: 49 100% 80%;
+    --yellow-3-hsl: 48 100% 70%;
+    --yellow-4-hsl: 47 100% 62%;
+    --yellow-5-hsl: 45 97% 54%;
+    --yellow-6-hsl: 42 96% 50%;
+    --yellow-7-hsl: 39 100% 48%;
+    --yellow-8-hsl: 35 100% 47%;
+    --yellow-9-hsl: 31 100% 45%;
+    --yellow-10-hsl: 31 100% 35%;
+    --yellow-11-hsl: 31 100% 25%;
+    --yellow-12-hsl: 31 100% 20%;
 
-  /* ── primitives › colors › blue ── */
-  --blue-0-hsl: 205 100% 95%;
-  --blue-1-hsl: 206 100% 91%;
-  --blue-2-hsl: 206 100% 82%;
-  --blue-3-hsl: 206 96% 72%;
-  --blue-4-hsl: 207 91% 64%;
-  --blue-5-hsl: 207 86% 57%;
-  --blue-6-hsl: 208 80% 52%;
-  --blue-7-hsl: 208 77% 47%;
-  --blue-8-hsl: 209 77% 43%;
-  --blue-9-hsl: 209 75% 38%;
-  --blue-10-hsl: 209 76% 32%;
-  --blue-11-hsl: 209 75% 27%;
-  --blue-12-hsl: 209 76% 21%;
+    /* ── primitives › colors › blue ── */
+    --blue-0-hsl: 205 100% 95%;
+    --blue-1-hsl: 206 100% 91%;
+    --blue-2-hsl: 206 100% 82%;
+    --blue-3-hsl: 206 96% 72%;
+    --blue-4-hsl: 207 91% 64%;
+    --blue-5-hsl: 207 86% 57%;
+    --blue-6-hsl: 208 80% 52%;
+    --blue-7-hsl: 208 77% 47%;
+    --blue-8-hsl: 209 77% 43%;
+    --blue-9-hsl: 209 75% 38%;
+    --blue-10-hsl: 209 76% 32%;
+    --blue-11-hsl: 209 75% 27%;
+    --blue-12-hsl: 209 76% 21%;
 
-  /* ── primitives › fonts ── */
-  --font-sans: Inter, Roboto, Helvetica Neue, Arial Nova, Nimbus Sans, Arial, sans-serif;
-  --font-monospace: Dank Mono, Operator Mono, Inconsolata, Fira Mono, ui-monospace, SF Mono, Monaco, Droid Sans Mono, Source Code Pro, Cascadia Code, Menlo, Consolas, DejaVu Sans Mono, monospace;
-  --font-serif: Superclarendon, Bookman Old Style, URW Bookman, URW Bookman L, Georgia Pro, Georgia, serif;
-  --font-weight-1: 100;
-  --font-weight-2: 200;
-  --font-weight-3: 300;
-  --font-weight-4: 400;
-  --font-weight-5: 500;
-  --font-weight-6: 600;
-  --font-weight-7: 700;
-  --font-weight-8: 800;
-  --font-weight-9: 900;
-  --font-lineheight-00: .95;
-  --font-lineheight-0: 1.1;
-  --font-lineheight-1: 1.25;
-  --font-lineheight-2: 1.375;
-  --font-lineheight-3: 1.5;
-  --font-lineheight-4: 1.75;
-  --font-lineheight-5: 2;
-  --font-letterspacing-0: -.05em;
-  --font-letterspacing-1: .025em;
-  --font-letterspacing-2: .050em;
-  --font-letterspacing-3: .075em;
-  --font-letterspacing-4: .150em;
-  --font-letterspacing-5: .500em;
-  --font-letterspacing-6: .750em;
-  --font-letterspacing-7: 1em;
-  --font-size-00: .75rem;
-  --font-size-0: .875rem;
-  --font-size-1: 1rem;
-  --font-size-2: 1.25rem;
-  --font-size-3: 1.5rem;
-  --font-size-4: 2rem;
-  --font-size-5: 2.5rem;
-  --font-size-6: 3rem;
-  --font-size-7: 3.5rem;
-  --font-size-8: 4rem;
-  --font-size-fluid-0: clamp(.75rem, 2vw, 1rem);
-  --font-size-fluid-1: clamp(1rem, 4vw, 1.5rem);
-  --font-size-fluid-2: clamp(1.5rem, 6vw, 2.5rem);
-  --font-size-fluid-3: clamp(2rem, 9vw, 3.5rem);
+    /* ── primitives › fonts ── */
+    --font-sans:
+        Inter, Roboto, Helvetica Neue, Arial Nova, Nimbus Sans, Arial,
+        sans-serif;
+    --font-monospace:
+        Dank Mono, Operator Mono, Inconsolata, Fira Mono, ui-monospace, SF Mono,
+        Monaco, Droid Sans Mono, Source Code Pro, Cascadia Code, Menlo,
+        Consolas, DejaVu Sans Mono, monospace;
+    --font-serif:
+        Superclarendon, Bookman Old Style, URW Bookman, URW Bookman L,
+        Georgia Pro, Georgia, serif;
+    --font-weight-1: 100;
+    --font-weight-2: 200;
+    --font-weight-3: 300;
+    --font-weight-4: 400;
+    --font-weight-5: 500;
+    --font-weight-6: 600;
+    --font-weight-7: 700;
+    --font-weight-8: 800;
+    --font-weight-9: 900;
+    --font-lineheight-00: 0.95;
+    --font-lineheight-0: 1.1;
+    --font-lineheight-1: 1.25;
+    --font-lineheight-2: 1.375;
+    --font-lineheight-3: 1.5;
+    --font-lineheight-4: 1.75;
+    --font-lineheight-5: 2;
+    --font-letterspacing-0: -0.05em;
+    --font-letterspacing-1: 0.025em;
+    --font-letterspacing-2: 0.05em;
+    --font-letterspacing-3: 0.075em;
+    --font-letterspacing-4: 0.15em;
+    --font-letterspacing-5: 0.5em;
+    --font-letterspacing-6: 0.75em;
+    --font-letterspacing-7: 1em;
+    --font-size-00: 0.75rem;
+    --font-size-0: 0.875rem;
+    --font-size-1: 1rem;
+    --font-size-2: 1.25rem;
+    --font-size-3: 1.5rem;
+    --font-size-4: 2rem;
+    --font-size-5: 2.5rem;
+    --font-size-6: 3rem;
+    --font-size-7: 3.5rem;
+    --font-size-8: 4rem;
+    --font-size-fluid-0: clamp(0.75rem, 2vw, 1rem);
+    --font-size-fluid-1: clamp(1rem, 4vw, 1.5rem);
+    --font-size-fluid-2: clamp(1.5rem, 6vw, 2.5rem);
+    --font-size-fluid-3: clamp(2rem, 9vw, 3.5rem);
 
-  /* ── primitives › sizes ── */
-  --size-000: -.5rem;
-  --size-00: -.25rem;
-  --size-1: .25rem;
-  --size-2: .5rem;
-  --size-3: 1rem;
-  --size-4: 1.25rem;
-  --size-5: 1.5rem;
-  --size-6: 1.75rem;
-  --size-7: 2rem;
-  --size-8: 3rem;
-  --size-9: 4rem;
-  --size-10: 5rem;
-  --size-11: 7.5rem;
-  --size-12: 10rem;
-  --size-13: 15rem;
-  --size-14: 20rem;
-  --size-15: 30rem;
-  --size-fluid-1: clamp(.5rem, 1vw, 1rem);
-  --size-fluid-2: clamp(1rem, 2vw, 1.5rem);
-  --size-fluid-3: clamp(1.5rem, 3vw, 2rem);
-  --size-fluid-4: clamp(2rem, 4vw, 3rem);
-  --size-fluid-5: clamp(4rem, 5vw, 5rem);
-  --size-fluid-6: clamp(5rem, 7vw, 7.5rem);
-  --size-fluid-7: clamp(7.5rem, 10vw, 10rem);
-  --size-fluid-8: clamp(10rem, 20vw, 15rem);
-  --size-fluid-9: clamp(15rem, 30vw, 20rem);
-  --size-fluid-10: clamp(20rem, 40vw, 30rem);
+    /* ── primitives › sizes ── */
+    --size-000: -0.5rem;
+    --size-00: -0.25rem;
+    --size-1: 0.25rem;
+    --size-2: 0.5rem;
+    --size-3: 1rem;
+    --size-4: 1.25rem;
+    --size-5: 1.5rem;
+    --size-6: 1.75rem;
+    --size-7: 2rem;
+    --size-8: 3rem;
+    --size-9: 4rem;
+    --size-10: 5rem;
+    --size-11: 7.5rem;
+    --size-12: 10rem;
+    --size-13: 15rem;
+    --size-14: 20rem;
+    --size-15: 30rem;
+    --size-fluid-1: clamp(0.5rem, 1vw, 1rem);
+    --size-fluid-2: clamp(1rem, 2vw, 1.5rem);
+    --size-fluid-3: clamp(1.5rem, 3vw, 2rem);
+    --size-fluid-4: clamp(2rem, 4vw, 3rem);
+    --size-fluid-5: clamp(4rem, 5vw, 5rem);
+    --size-fluid-6: clamp(5rem, 7vw, 7.5rem);
+    --size-fluid-7: clamp(7.5rem, 10vw, 10rem);
+    --size-fluid-8: clamp(10rem, 20vw, 15rem);
+    --size-fluid-9: clamp(15rem, 30vw, 20rem);
+    --size-fluid-10: clamp(20rem, 40vw, 30rem);
 
-  /* ── primitives › borders ── */
-  --border-size-1: 1px;
-  --border-size-2: 2px;
-  --radius-1: 2px;
-  --radius-2: 4px;
-  --radius-3: 8px;
-  --radius-4: 16px;
-  --radius-5: 20px;
-  --radius-6: 8rem;
+    /* ── primitives › borders ── */
+    --border-size-1: 1px;
+    --border-size-2: 2px;
+    --radius-1: 2px;
+    --radius-2: 4px;
+    --radius-3: 8px;
+    --radius-4: 16px;
+    --radius-5: 20px;
+    --radius-6: 8rem;
 
-  /* ── primitives › shadows ── */
-  --shadow-color: 220 3% 15%;
-  --shadow-strength: 1%;
-  --shadow-strength-3: calc(var(--shadow-strength) + 2%);
-  --shadow-strength-4: calc(var(--shadow-strength) + 3%);
-  --shadow-strength-5: calc(var(--shadow-strength) + 4%);
-  --shadow-strength-6: calc(var(--shadow-strength) + 5%);
-  --shadow-strength-7: calc(var(--shadow-strength) + 6%);
-  --shadow-strength-8: calc(var(--shadow-strength) + 7%);
-  --shadow-strength-10: calc(var(--shadow-strength) + 9%);
-  --shadow-color-dark: 220 40% 2%;
-  --shadow-strength-dark: 25%;
-  --shadow-1: 0 1px 2px -1px hsl(var(--shadow-color) / var(--shadow-strength-10));
-  --shadow-2: 0 3px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)), 0 7px 14px -5px hsl(var(--shadow-color) / var(--shadow-strength-6));
-  --shadow-3: 0 -1px 3px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)), 0 1px 2px -5px hsl(var(--shadow-color) / var(--shadow-strength-3)), 0 2px 5px -5px hsl(var(--shadow-color) / var(--shadow-strength-5)), 0 4px 12px -5px hsl(var(--shadow-color) / var(--shadow-strength-6)), 0 12px 15px -5px hsl(var(--shadow-color) / var(--shadow-strength-8));
-  --shadow-4: 0 -2px 5px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)), 0 1px 1px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)), 0 2px 2px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)), 0 5px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-5)), 0 9px 9px -2px hsl(var(--shadow-color) / var(--shadow-strength-6)), 0 16px 16px -2px hsl(var(--shadow-color) / var(--shadow-strength-7));
-  --shadow-5: 0 -1px 2px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)), 0 2px 1px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)), 0 5px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)), 0 10px 10px -2px hsl(var(--shadow-color) / var(--shadow-strength-5)), 0 20px 20px -2px hsl(var(--shadow-color) / var(--shadow-strength-6)), 0 40px 40px -2px hsl(var(--shadow-color) / var(--shadow-strength-8));
-  --shadow-6: 0 -1px 2px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)), 0 3px 2px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)), 0 7px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)), 0 12px 10px -2px hsl(var(--shadow-color) / var(--shadow-strength-5)), 0 22px 18px -2px hsl(var(--shadow-color) / var(--shadow-strength-6)), 0 41px 33px -2px hsl(var(--shadow-color) / var(--shadow-strength-7)), 0 100px 80px -2px hsl(var(--shadow-color) / var(--shadow-strength-8));
+    /* ── primitives › shadows ── */
+    --shadow-color: 220 3% 15%;
+    --shadow-strength: 1%;
+    --shadow-strength-3: calc(var(--shadow-strength) + 2%);
+    --shadow-strength-4: calc(var(--shadow-strength) + 3%);
+    --shadow-strength-5: calc(var(--shadow-strength) + 4%);
+    --shadow-strength-6: calc(var(--shadow-strength) + 5%);
+    --shadow-strength-7: calc(var(--shadow-strength) + 6%);
+    --shadow-strength-8: calc(var(--shadow-strength) + 7%);
+    --shadow-strength-10: calc(var(--shadow-strength) + 9%);
+    --shadow-color-dark: 220 40% 2%;
+    --shadow-strength-dark: 25%;
+    --shadow-1: 0 1px 2px -1px
+        hsl(var(--shadow-color) / var(--shadow-strength-10));
+    --shadow-2:
+        0 3px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),
+        0 7px 14px -5px hsl(var(--shadow-color) / var(--shadow-strength-6));
+    --shadow-3:
+        0 -1px 3px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)),
+        0 1px 2px -5px hsl(var(--shadow-color) / var(--shadow-strength-3)),
+        0 2px 5px -5px hsl(var(--shadow-color) / var(--shadow-strength-5)),
+        0 4px 12px -5px hsl(var(--shadow-color) / var(--shadow-strength-6)),
+        0 12px 15px -5px hsl(var(--shadow-color) / var(--shadow-strength-8));
+    --shadow-4:
+        0 -2px 5px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)),
+        0 1px 1px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),
+        0 2px 2px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),
+        0 5px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-5)),
+        0 9px 9px -2px hsl(var(--shadow-color) / var(--shadow-strength-6)),
+        0 16px 16px -2px hsl(var(--shadow-color) / var(--shadow-strength-7));
+    --shadow-5:
+        0 -1px 2px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)),
+        0 2px 1px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),
+        0 5px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),
+        0 10px 10px -2px hsl(var(--shadow-color) / var(--shadow-strength-5)),
+        0 20px 20px -2px hsl(var(--shadow-color) / var(--shadow-strength-6)),
+        0 40px 40px -2px hsl(var(--shadow-color) / var(--shadow-strength-8));
+    --shadow-6:
+        0 -1px 2px 0 hsl(var(--shadow-color) / var(--shadow-strength-3)),
+        0 3px 2px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),
+        0 7px 5px -2px hsl(var(--shadow-color) / var(--shadow-strength-4)),
+        0 12px 10px -2px hsl(var(--shadow-color) / var(--shadow-strength-5)),
+        0 22px 18px -2px hsl(var(--shadow-color) / var(--shadow-strength-6)),
+        0 41px 33px -2px hsl(var(--shadow-color) / var(--shadow-strength-7)),
+        0 100px 80px -2px hsl(var(--shadow-color) / var(--shadow-strength-8));
 
-  /* ── semantic › color › background ── */
-  --color-background-default: hsl(var(--neutral-0-hsl));
-  --color-background-subtle: hsl(var(--neutral-1-hsl));
-  --color-background-raised: hsl(var(--neutral-0-hsl));
-  --color-background-sunken: hsl(var(--neutral-2-hsl));
-  --color-background-overlay: hsl(var(--neutral-12-hsl) / 0.6);
-  --color-background-inverse: hsl(var(--neutral-12-hsl));
-  --color-background-disabled: hsl(var(--neutral-2-hsl));
-  --color-background-primary: hsl(var(--indigo-0-hsl));
-  --color-background-danger: hsl(var(--red-0-hsl));
-  --color-background-success: hsl(var(--green-0-hsl));
-  --color-background-warning: hsl(var(--yellow-0-hsl));
-  --color-background-information: hsl(var(--blue-0-hsl));
+    /* ── semantic › color › surface ── */
+    --color-neutral-surface-default:
+        hsl(var(--neutral-0-hsl)),
+        --color-neutral-surface-subtle: hsl(var(--neutral-1-hsl)),
+        --color-neutral-surface-raised: hsl(var(--neutral-0-hsl)),
+        --color-neutral-surface-sunken: hsl(var(--neutral-2-hsl)),
+        --color-neutral-surface-overlay: hsl(var(--neutral-12-hsl) / 0.6),
+        --color-neutral-surface-inverse: hsl(var(--neutral-12-hsl)),
+        --color-neutral-surface-disabled: hsl(var(--neutral-2-hsl))
+            /* ── semantic › color › background ── */
+            --color-neutral-bg-default: hsl(var(--neutral-10-hsl));
+    --color-neutral-bg-hover: hsl(var(--neutral-11-hsl));
+    --color-neutral-bg-focus-ring: hsl(var(--neutral-4-hsl));
+    --color-neutral-bg-active: hsl(var(--neutral-12-hsl));
+    /*diabled buttons, card bg, outline badge bg- use for all buttons except ghost & link*/
+    --color-neutral-bg-weak: hsl(var(--neutral-0-hsl));
 
-  /* ── semantic › color › text ── */
-  --color-text-primary: hsl(var(--neutral-12-hsl));
-  --color-text-secondary: hsl(var(--neutral-9-hsl));
-  --color-text-tertiary: hsl(var(--neutral-7-hsl));
-  --color-text-placeholder: hsl(var(--neutral-6-hsl));
-  --color-text-disabled: hsl(var(--neutral-8-hsl));
-  --color-text-inverse: hsl(var(--neutral-0-hsl));
-  --color-text-on-primary: hsl(var(--neutral-0-hsl));
-  --color-text-link: hsl(var(--indigo-9-hsl));
-  --color-text-link-hover: hsl(var(--indigo-11-hsl));
-  --color-text-danger: hsl(var(--red-9-hsl));
-  --color-text-success: hsl(var(--green-9-hsl));
-  --color-text-warning: hsl(var(--yellow-11-hsl));
-  --color-text-information: hsl(var(--blue-10-hsl));
+    --color-brand-bg-default: hsl(var(--indigo-9-hsl));
+    --color-brand-bg-hover: hsl(var(--indigo-10-hsl));
+    --color-brand-bg-focus-ring: hsl(var(--indigo-4-hsl));
+    --color-brand-bg-active: hsl(var(--indigo-11-hsl));
+    --color-brand-bg-weak: hsl(var(--indigo-1-hsl));
 
-  /* ── semantic › color › border ── */
-  --color-border-subtle: hsl(var(--neutral-2-hsl));
-  --color-border-default: hsl(var(--neutral-3-hsl));
-  --color-border-strong: hsl(var(--neutral-6-hsl));
-  --color-border-disabled: hsl(var(--neutral-2-hsl));
-  --color-border-focus: hsl(var(--indigo-7-hsl));
-  --color-border-danger: hsl(var(--red-7-hsl));
-  --color-border-success: hsl(var(--green-7-hsl));
-  --color-border-warning: hsl(var(--yellow-6-hsl));
-  --color-border-information: hsl(var(--blue-6-hsl));
-  --color-border-primary-subtle: hsl(var(--indigo-3-hsl));
-  --color-border-danger-subtle: hsl(var(--red-3-hsl));
-  --color-border-success-subtle: hsl(var(--green-4-hsl));
-  --color-border-information-subtle: hsl(var(--blue-3-hsl));
-  --color-border-control: hsl(var(--neutral-5-hsl));
-  --color-border-input: hsl(var(--neutral-4-hsl));
+    --color-danger-bg-default: hsl(var(--red-9-hsl));
+    --color-danger-bg-hover: hsl(var(--red-10-hsl));
+    --color-danger-bg-focus-ring: hsl(var(--red-4-hsl));
+    --color-danger-bg-active: hsl(var(--red-11-hsl));
+    --color-danger-bg-weak: hsl(var(--red-1-hsl));
 
-  /* ── semantic › color › interactive ── */
-  --color-interactive-primary-default: hsl(var(--indigo-9-hsl));
-  --color-interactive-primary-hover: hsl(var(--indigo-10-hsl));
-  --color-interactive-primary-active: hsl(var(--indigo-11-hsl));
-  --color-interactive-primary-focus-ring: hsl(var(--indigo-4-hsl));
-  --color-interactive-danger-default: hsl(var(--red-9-hsl));
-  --color-interactive-danger-hover: hsl(var(--red-10-hsl));
-  --color-interactive-danger-active: hsl(var(--red-11-hsl));
-  --color-interactive-danger-focus-ring: hsl(var(--red-4-hsl));
-  --color-interactive-warning-default: hsl(var(--yellow-6-hsl));
-  --color-interactive-warning-hover: hsl(var(--yellow-7-hsl));
-  --color-interactive-warning-active: hsl(var(--yellow-8-hsl));
-  --color-interactive-warning-focus-ring: hsl(var(--yellow-3-hsl));
-  --color-interactive-success-default: hsl(var(--green-7-hsl));
-  --color-interactive-success-hover: hsl(var(--green-8-hsl));
-  --color-interactive-success-active: hsl(var(--green-9-hsl));
-  --color-interactive-success-focus-ring: hsl(var(--green-3-hsl));
-  --color-interactive-information-default: hsl(var(--blue-7-hsl));
-  --color-interactive-information-hover: hsl(var(--blue-8-hsl));
-  --color-interactive-information-active: hsl(var(--blue-9-hsl));
-  --color-interactive-information-focus-ring: hsl(var(--blue-3-hsl));
-  --color-interactive-neutral-default: hsl(var(--neutral-10-hsl));
-  --color-interactive-neutral-hover: hsl(var(--neutral-11-hsl));
-  --color-interactive-neutral-active: hsl(var(--neutral-12-hsl));
-  --color-interactive-neutral-focus-ring: hsl(var(--neutral-4-hsl));
+    --color-success-bg-default: hsl(var(--green-10-hsl));
+    --color-success-bg-weak: hsl(var(--green-1-hsl));
 
-  /* ── semantic › spacing ── */
-  --spacing-xs: var(--size-1);
-  --spacing-sm: var(--size-2);
-  --spacing-md: var(--size-3);
-  --spacing-lg: var(--size-5);
-  --spacing-xl: var(--size-7);
-  --spacing-2xl: var(--size-8);
-  --spacing-3xl: var(--size-9);
+    --color-warning-bg-default: hsl(var(--yewllow-11-hsl));
+    --color-warning-bg-weak: hsl(var(--yewllow-1-hsl));
 
-  /* ── semantic › font-family ── */
-  --font-family-sans: var(--font-sans);
-  --font-family-serif: var(--font-serif);
-  --font-family-mono: var(--font-monospace);
+    --color-information-bg-default: hsl(var(--blue-9-hsl));
+    --color-information-bg-weak: hsl(var(--blue-1-hsl))
+        /* ── semantic › color › text ── */
+        --color-neutral-text-default: hsl(var(--neutral-12-hsl));
+    --color-neutral-text-soft: hsl(var(--neutral-9-hsl));
+    /*placeholder*/
+    --color-neutral-text-softer: hsl(var(--neutral-7-hsl));
+    --color-neutral-text-disabled: hsl(var(--neutral-8-hsl));
+    --color-neutral-text-inverse: hsl(var(--neutral-0-hsl));
+    --color-neutral-text-on-primary: hsl(var(--neutral-0-hsl));
 
-  /* ── semantic › font-size ── */
-  --font-size-caption: var(--font-size-00);
-  --font-size-body-sm: var(--font-size-0);
-  --font-size-body: var(--font-size-1);
-  --font-size-body-lg: var(--font-size-2);
-  --font-size-heading-sm: var(--font-size-3);
-  --font-size-heading-md: var(--font-size-4);
-  --font-size-heading-lg: var(--font-size-5);
-  --font-size-display-sm: var(--font-size-6);
-  --font-size-display-md: var(--font-size-7);
-  --font-size-display-lg: var(--font-size-8);
+    --color-brand-text-default: hsl(var(--indigo-9-hsl));
+    --color-brand-text-strong: hsl(var(--indigo-10-hsl));
+    --color-brand-text-on-primary: hsl(var(--indigo-0-hsl));
 
-  /* ── semantic › font-weight ── */
-  --font-weight-regular: var(--font-weight-4);
-  --font-weight-medium: var(--font-weight-5);
-  --font-weight-semibold: var(--font-weight-6);
-  --font-weight-bold: var(--font-weight-7);
+    --color-danger-text-default: hsl(var(--red-9-hsl));
+    --color-danger-text-strong: hsl(var(--red-10-hsl));
+    --color-danger-text-on-primary: hsl(var(--red-0-hsl));
 
-  /* ── semantic › line-height ── */
-  --line-height-tight: var(--font-lineheight-0);
-  --line-height-snug: var(--font-lineheight-1);
-  --line-height-normal: var(--font-lineheight-3);
-  --line-height-relaxed: var(--font-lineheight-4);
+    --color-success-text-default: hsl(var(--green-10-hsl));
+    --color-success-text-strong: hsl(var(--green-11-hsl));
+    --color-success-text-on-primary: hsl(var(--green-0-hsl));
 
-  /* ── semantic › letter-spacing ── */
-  --letter-spacing-tight: var(--font-letterspacing-0);
-  --letter-spacing-normal: 0em;
-  --letter-spacing-wide: var(--font-letterspacing-2);
-  --letter-spacing-wider: var(--font-letterspacing-3);
-  --letter-spacing-widest: var(--font-letterspacing-4);
+    /*link, outline badge, card text*/
+    --color-warning-text-default: hsl(var(--yellow-11-hsl));
+    /*hover, card heading*/
+    --color-warning-text-strong: hsl(var(--yellow-12-hsl));
+    --color-warning-text-on-primary: hsl(var(--yellow-0-hsl));
 
-  /* ── semantic › border-radius ── */
-  --border-radius-xs: var(--radius-1);
-  --border-radius-sm: var(--radius-2);
-  --border-radius-md: var(--radius-3);
-  --border-radius-lg: var(--radius-4);
-  --border-radius-xl: var(--radius-5);
-  --border-radius-full: var(--radius-6);
+    --color-information-text-default: hsl(var(--blue-9-hsl));
+    --color-information-text-strong: hsl(var(--blue-10-hsl));
+    --color-information-text-on-primary: hsl(var(--blue-0-hsl));
 
-  /* ── semantic › border-width ── */
-  --border-width-sm: var(--border-size-1);
-  --border-width-md: var(--border-size-2);
-  --border-width-lg: var(--border-size-3);
+    /* ── semantic › color › border ── */
+    --color-neutral-border-subtle: hsl(var(--neutral-2-hsl));
+    --color-neutral-border-default: hsl(var(--neutral-3-hsl));
+    --color-neutral-border-strong: hsl(var(--neutral-6-hsl));
+    --color-neutral-border-disabled: hsl(var(--neutral-2-hsl));
+    --color-neutral-border-control: hsl(var(--neutral-5-hsl));
+    --color-neutral-border-input: hsl(var(--neutral-4-hsl));
 
-  /* ── semantic › shadow ── */
-  --shadow-sm: var(--shadow-1);
-  --shadow-md: var(--shadow-2);
-  --shadow-lg: var(--shadow-3);
-  --shadow-xl: var(--shadow-4);
-  --shadow-2xl: var(--shadow-5);
-  --shadow-3xl: var(--shadow-6);
+    --color-brand-border-subtle: hsl(var(--indigo-2-hsl));
+    --color-brand-border-default: hsl(var(--indigo-7-hsl));
 
-  /* ── component › typography › h1 ── */
-  --typography-h1-font: var(--font-family-sans);
-  --typography-h1-size: var(--font-size-heading-lg);
-  --typography-h1-weight: var(--font-weight-bold);
-  --typography-h1-line-height: var(--line-height-tight);
-  --typography-h1-color: var(--color-text-primary);
-  --typography-h1-letter-spacing: var(--letter-spacing-tight);
+    --color-danger-border-subtle: hsl(var(--red-2-hsl));
+    --color-danger-border-default: hsl(var(--red-7-hsl));
 
-  /* ── component › typography › h2 ── */
-  --typography-h2-font: var(--font-family-sans);
-  --typography-h2-size: var(--font-size-heading-md);
-  --typography-h2-weight: var(--font-weight-bold);
-  --typography-h2-line-height: var(--line-height-tight);
-  --typography-h2-color: var(--color-text-primary);
-  --typography-h2-letter-spacing: var(--letter-spacing-tight);
+    --color-success-border-subtle: hsl(var(--green-2-hsl));
+    --color-success-border-default: hsl(var(--green-8-hsl));
 
-  /* ── component › typography › h3 ── */
-  --typography-h3-font: var(--font-family-sans);
-  --typography-h3-size: var(--font-size-heading-sm);
-  --typography-h3-weight: var(--font-weight-semibold);
-  --typography-h3-line-height: var(--line-height-snug);
-  --typography-h3-color: var(--color-text-primary);
-  --typography-h3-letter-spacing: var(--letter-spacing-tight);
+    --color-warning-border-subtle: hsl(var(--yellow-3-hsl));
+    --color-warning-border-default: hsl(var(--yellow-10-hsl));
 
-  /* ── component › typography › body ── */
-  --typography-body-font: var(--font-family-sans);
-  --typography-body-size: var(--font-size-body);
-  --typography-body-weight: var(--font-weight-regular);
-  --typography-body-line-height: var(--line-height-normal);
-  --typography-body-color: var(--color-text-primary);
-  --typography-body-letter-spacing: var(--letter-spacing-normal);
+    --color-information-border-subtle: hsl(var(--blue-2-hsl));
+    --color-information-border-default: hsl(var(--blue-7-hsl));
 
-  /* ── component › typography › body-sm ── */
-  --typography-body-sm-font: var(--font-family-sans);
-  --typography-body-sm-size: var(--font-size-body-sm);
-  --typography-body-sm-weight: var(--font-weight-regular);
-  --typography-body-sm-line-height: var(--line-height-normal);
-  --typography-body-sm-color: var(--color-text-secondary);
-  --typography-body-sm-letter-spacing: var(--letter-spacing-normal);
+    /* ── semantic › color › interactive ── */
+    /*--color-background-primary: hsl(var(--indigo-0-hsl));
+    --color-background-danger: hsl(var(--red-0-hsl));
+    --color-background-success: hsl(var(--green-0-hsl));
+    --color-background-warning: hsl(var(--yellow-0-hsl));
+    --color-background-information: hsl(var(--blue-0-hsl));
+    --color-text-danger: hsl(var(--red-9-hsl));
+    --color-text-success: hsl(var(--green-9-hsl));
+    --color-text-warning: hsl(var(--yellow-11-hsl));
+    --color-text-information: hsl(var(--blue-10-hsl));
+    --color-border-danger: hsl(var(--red-7-hsl));
+    --color-border-success: hsl(var(--green-7-hsl));
+    --color-border-warning: hsl(var(--yellow-6-hsl));
+    --color-border-information: hsl(var(--blue-6-hsl));
+    --color-border-primary-subtle: hsl(var(--indigo-3-hsl));
+    --color-border-danger-subtle: hsl(var(--red-3-hsl));
+    --color-border-success-subtle: hsl(var(--green-4-hsl));
+    --color-border-information-subtle: hsl(var(--blue-3-hsl));
+    --color-border-control: hsl(var(--neutral-5-hsl));
+    --color-border-input: hsl(var(--neutral-4-hsl));
 
-  /* ── component › typography › body-lg ── */
-  --typography-body-lg-font: var(--font-family-sans);
-  --typography-body-lg-size: var(--font-size-body-lg);
-  --typography-body-lg-weight: var(--font-weight-regular);
-  --typography-body-lg-line-height: var(--line-height-normal);
-  --typography-body-lg-color: var(--color-text-primary);
-  --typography-body-lg-letter-spacing: var(--letter-spacing-normal);
+    --color-interactive-primary-default: hsl(var(--indigo-9-hsl));
+    --color-interactive-primary-hover: hsl(var(--indigo-10-hsl));
+    --color-interactive-primary-active: hsl(var(--indigo-11-hsl));
+    --color-interactive-primary-focus-ring: hsl(var(--indigo-4-hsl));
+    --color-interactive-primary-surface: hsl(var(--indigo-0-hsl));
+    --color-interactive-primary-border: hsl(var(--indigo-7-hsl));
 
-  /* ── component › typography › link ── */
-  --typography-link-font: var(--font-family-sans);
-  --typography-link-size: var(--font-size-body);
-  --typography-link-weight: var(--font-weight-medium);
-  --typography-link-line-height: var(--line-height-normal);
-  --typography-link-color: var(--color-text-link);
-  --typography-link-letter-spacing: var(--letter-spacing-normal);
+    --color-interactive-danger-default: hsl(var(--red-9-hsl));
+    --color-interactive-danger-hover: hsl(var(--red-10-hsl));
+    --color-interactive-danger-active: hsl(var(--red-11-hsl));
+    --color-interactive-danger-focus-ring: hsl(var(--red-4-hsl));
+    --color-interactive-danger-surface: hsl(var(--red-0-hsl));
+    --color-interactive-danger-border: hsl(var(--red-7-hsl));
 
-  /* ── component › typography › caption ── */
-  --typography-caption-font: var(--font-family-sans);
-  --typography-caption-size: var(--font-size-caption);
-  --typography-caption-weight: var(--font-weight-regular);
-  --typography-caption-line-height: var(--line-height-normal);
-  --typography-caption-color: var(--color-text-secondary);
-  --typography-caption-letter-spacing: var(--letter-spacing-wide);
+    --color-interactive-warning-default: hsl(var(--yellow-6-hsl));
+    --color-interactive-warning-hover: hsl(var(--yellow-7-hsl));
+    --color-interactive-warning-active: hsl(var(--yellow-11-hsl));
+    --color-interactive-warning-focus-ring: hsl(var(--yellow-3-hsl));
+    --color-interactive-warning-surface: hsl(var(--yellow-0-hsl));
+    --color-interactive-warning-border: hsl(var(--yellow-7-hsl));
 
-  /* ── component › typography › label ── */
-  --typography-body-sm-font: var(--font-family-sans);
-  --typography-body-sm-size: var(--font-size-body-sm);
-  --typography-body-sm-weight: var(--font-weight-medium);
-  --typography-body-sm-line-height: var(--line-height-snug);
-  --typography-body-sm-color: var(--color-text-secondary);
-  --typography-body-sm-letter-spacing: var(--letter-spacing-normal);
+    --color-interactive-success-default: hsl(var(--green-7-hsl));
+    --color-interactive-success-hover: hsl(var(--green-8-hsl));
+    --color-interactive-success-active: hsl(var(--green-10-hsl));
+    --color-interactive-success-focus-ring: hsl(var(--green-3-hsl));
+    --color-interactive-success-surface: hsl(var(--green-0-hsl));
+    --color-interactive-success-border: hsl(var(--green-8-hsl));
 
-  /* ── component › typography › button ── */
-  --typography-body-sm-font: var(--font-family-sans);
-  --typography-body-sm-size: var(--font-size-body-sm);
-  --typography-body-sm-weight: var(--font-weight-medium);
-  --typography-body-sm-line-height: var(--line-height-snug);
-  --typography-body-sm-color: var(--color-text-secondary);
-  --typography-body-sm-letter-spacing: var(--letter-spacing-normal);
+    --color-interactive-information-default: hsl(var(--blue-7-hsl));
+    --color-interactive-information-hover: hsl(var(--blue-8-hsl));
+    --color-interactive-information-active: hsl(var(--blue-9-hsl));
+    --color-interactive-information-focus-ring: hsl(var(--blue-3-hsl));
+    --color-interactive-informaiton-surface: hsl(var(--blue-0-hsl));
+    --color-interactive-information-border: hsl(var(--blue-7-hsl));
 
-  /* ── component › button › primary ── */
-  --button-primary-bg-idle: var(--color-interactive-primary-default);
-  --button-primary-bg-hover: var(--color-interactive-primary-hover);
-  --button-primary-bg-focus: var(--color-interactive-primary-default);
-  --button-primary-bg-active: var(--color-interactive-primary-active);
-  --button-primary-bg-disabled: var(--color-background-disabled);
-  --button-primary-text-idle: var(--color-text-on-primary);
-  --button-primary-text-hover: var(--color-text-on-primary);
-  --button-primary-text-focus: var(--color-text-on-primary);
-  --button-primary-text-active: var(--color-text-on-primary);
-  --button-primary-text-disabled: var(--color-text-disabled);
-  --button-primary-border-idle: var(--color-interactive-primary-default);
-  --button-primary-border-hover: var(--color-interactive-primary-hover);
-  --button-primary-border-focus: var(--color-border-focus);
-  --button-primary-border-active: var(--color-interactive-primary-active);
-  --button-primary-border-disabled: var(--color-border-disabled);
-  --button-primary-ring-focus: var(--color-interactive-primary-focus-ring);
+    --color-interactive-neutral-default: hsl(var(--neutral-10-hsl));
+    --color-interactive-neutral-hover: hsl(var(--neutral-11-hsl));
+    --color-interactive-neutral-active: hsl(var(--neutral-12-hsl));
+    --color-interactive-neutral-focus-ring: hsl(var(--neutral-4-hsl));
+    --color-interactive-neutral-surface: hsl(var(--neutral-2-hsl));
+    --color-interactive-neutral-border: hsl(var(--neutral-5-hsl));*/
 
-  /* ── component › button › danger ── */
-  --button-danger-bg-idle: var(--color-interactive-danger-default);
-  --button-danger-bg-hover: var(--color-interactive-danger-hover);
-  --button-danger-bg-focus: var(--color-interactive-danger-default);
-  --button-danger-bg-active: var(--color-interactive-danger-active);
-  --button-danger-bg-disabled: var(--color-background-disabled);
-  --button-danger-text-idle: var(--color-text-on-primary);
-  --button-danger-text-hover: var(--color-text-on-primary);
-  --button-danger-text-focus: var(--color-text-on-primary);
-  --button-danger-text-active: var(--color-text-on-primary);
-  --button-danger-text-disabled: var(--color-text-disabled);
-  --button-danger-border-idle: var(--color-interactive-danger-default);
-  --button-danger-border-hover: var(--color-interactive-danger-hover);
-  --button-danger-border-focus: var(--color-border-danger);
-  --button-danger-border-active: var(--color-interactive-danger-active);
-  --button-danger-border-disabled: var(--color-border-disabled);
-  --button-danger-ring-focus: var(--color-interactive-danger-focus-ring);
+    /* ── semantic › spacing ── */
+    --spacing-xs: var(--size-1);
+    --spacing-sm: var(--size-2);
+    --spacing-md: var(--size-3);
+    --spacing-lg: var(--size-5);
+    --spacing-xl: var(--size-7);
+    --spacing-2xl: var(--size-8);
+    --spacing-3xl: var(--size-9);
 
-  /* ── component › button › default ── */
-  --button-default-bg-idle: var(--color-interactive-neutral-default);
-  --button-default-bg-hover: var(--color-interactive-neutral-hover);
-  --button-default-bg-focus: var(--color-interactive-neutral-default);
-  --button-default-bg-active: var(--color-interactive-neutral-active);
-  --button-default-bg-disabled: var(--color-background-disabled);
-  --button-default-text-idle: var(--color-text-inverse);
-  --button-default-text-hover: var(--color-text-inverse);
-  --button-default-text-focus: var(--color-text-inverse);
-  --button-default-text-active: var(--color-text-inverse);
-  --button-default-text-disabled: var(--color-text-disabled);
-  --button-default-border-idle: var(--color-interactive-neutral-default);
-  --button-default-border-hover: var(--color-interactive-neutral-hover);
-  --button-default-border-focus: var(--color-border-focus);
-  --button-default-border-active: var(--color-interactive-neutral-active);
-  --button-default-border-disabled: var(--color-border-disabled);
-  --button-default-ring-focus: var(--color-interactive-neutral-focus-ring);
+    /* ── semantic › font-family ── */
+    --font-family-sans: var(--font-sans);
+    --font-family-serif: var(--font-serif);
+    --font-family-mono: var(--font-monospace);
 
-  /* ── component › button › default-outline ── */
-  --button-default-outline-bg-idle: var(--color-background-default);
-  --button-default-outline-bg-hover: var(--color-background-subtle);
-  --button-default-outline-bg-focus: var(--color-background-default);
-  --button-default-outline-bg-active: var(--color-background-sunken);
-  --button-default-outline-bg-disabled: var(--color-background-disabled);
-  --button-default-outline-text-idle: var(--color-text-primary);
-  --button-default-outline-text-hover: var(--color-text-primary);
-  --button-default-outline-text-focus: var(--color-text-primary);
-  --button-default-outline-text-active: var(--color-text-primary);
-  --button-default-outline-text-disabled: var(--color-text-disabled);
-  --button-default-outline-border-idle: var(--color-border-strong);
-  --button-default-outline-border-hover: var(--color-interactive-neutral-hover);
-  --button-default-outline-border-focus: var(--color-border-focus);
-  --button-default-outline-border-active: var(--color-interactive-neutral-active);
-  --button-default-outline-border-disabled: var(--color-border-disabled);
-  --button-default-outline-ring-focus: var(--color-interactive-neutral-focus-ring);
+    /* ── semantic › font-size ── */
+    --font-size-caption: var(--font-size-00);
+    --font-size-body-sm: var(--font-size-0);
+    --font-size-body: var(--font-size-1);
+    --font-size-body-lg: var(--font-size-2);
+    --font-size-heading-sm: var(--font-size-3);
+    --font-size-heading-md: var(--font-size-4);
+    --font-size-heading-lg: var(--font-size-5);
+    --font-size-display-sm: var(--font-size-6);
+    --font-size-display-md: var(--font-size-7);
+    --font-size-display-lg: var(--font-size-8);
 
-  /* ── component › button › primary-outline ── */
-  --button-primary-outline-bg-idle: transparent;
-  --button-primary-outline-bg-hover: var(--color-background-primary);
-  --button-primary-outline-bg-focus: transparent;
-  --button-primary-outline-bg-active: var(--color-background-primary);
-  --button-primary-outline-bg-disabled: var(--color-background-disabled);
-  --button-primary-outline-text-idle: var(--color-interactive-primary-default);
-  --button-primary-outline-text-hover: var(--color-interactive-primary-hover);
-  --button-primary-outline-text-focus: var(--color-interactive-primary-default);
-  --button-primary-outline-text-active: var(--color-interactive-primary-active);
-  --button-primary-outline-text-disabled: var(--color-text-disabled);
-  --button-primary-outline-border-idle: var(--color-interactive-primary-default);
-  --button-primary-outline-border-hover: var(--color-interactive-primary-hover);
-  --button-primary-outline-border-focus: var(--color-border-focus);
-  --button-primary-outline-border-active: var(--color-interactive-primary-active);
-  --button-primary-outline-border-disabled: var(--color-border-disabled);
-  --button-primary-outline-ring-focus: var(--color-interactive-primary-focus-ring);
+    /* ── semantic › font-weight ── */
+    --font-weight-regular: var(--font-weight-4);
+    --font-weight-medium: var(--font-weight-5);
+    --font-weight-semibold: var(--font-weight-6);
+    --font-weight-bold: var(--font-weight-7);
 
-  /* ── component › button › link ── */
-  --button-link-bg-idle: transparent;
-  --button-link-bg-hover: transparent;
-  --button-link-bg-focus: transparent;
-  --button-link-bg-active: transparent;
-  --button-link-bg-disabled: transparent;
-  --button-link-text-idle: var(--color-text-link);
-  --button-link-text-hover: var(--color-text-link-hover);
-  --button-link-text-focus: var(--color-text-link);
-  --button-link-text-active: var(--color-text-link-hover);
-  --button-link-text-disabled: var(--color-text-disabled);
-  --button-link-border-idle: transparent;
-  --button-link-border-hover: transparent;
-  --button-link-border-focus: var(--color-border-focus);
-  --button-link-border-active: transparent;
-  --button-link-border-disabled: transparent;
-  --button-link-ring-focus: var(--color-interactive-primary-focus-ring);
+    /* ── semantic › line-height ── */
+    --line-height-tight: var(--font-lineheight-0);
+    --line-height-snug: var(--font-lineheight-1);
+    --line-height-normal: var(--font-lineheight-3);
+    --line-height-relaxed: var(--font-lineheight-4);
 
-  /* ── component › button › ghost ── */
-  --button-ghost-bg-idle: transparent;
-  --button-ghost-bg-hover: var(--color-background-subtle);
-  --button-ghost-bg-focus: transparent;
-  --button-ghost-bg-active: var(--color-background-sunken);
-  --button-ghost-bg-disabled: transparent;
-  --button-ghost-text-idle: var(--color-text-secondary);
-  --button-ghost-text-hover: var(--color-text-primary);
-  --button-ghost-text-focus: var(--color-text-secondary);
-  --button-ghost-text-active: var(--color-text-primary);
-  --button-ghost-text-disabled: var(--color-text-disabled);
-  --button-ghost-border-idle: transparent;
-  --button-ghost-border-hover: transparent;
-  --button-ghost-border-focus: var(--color-border-focus);
-  --button-ghost-border-active: transparent;
-  --button-ghost-border-disabled: transparent;
-  --button-ghost-ring-focus: var(--color-interactive-neutral-focus-ring);
+    /* ── semantic › letter-spacing ── */
+    --letter-spacing-tight: var(--font-letterspacing-0);
+    --letter-spacing-normal: 0em;
+    --letter-spacing-wide: var(--font-letterspacing-2);
+    --letter-spacing-wider: var(--font-letterspacing-3);
+    --letter-spacing-widest: var(--font-letterspacing-4);
 
-  /* ── component › input › default ── */
-  --input-default-bg-idle: var(--color-background-default);
-  --input-default-bg-focus: var(--color-background-default);
-  --input-default-bg-disabled: var(--color-background-subtle);
-  --input-default-text-idle: var(--color-text-primary);
-  --input-default-text-placeholder: var(--color-text-placeholder);
-  --input-default-text-disabled: var(--color-text-disabled);
-  --input-default-border-idle: var(--color-border-input);
-  --input-default-border-hover: var(--color-border-strong);
-  --input-default-border-focus: var(--color-border-focus);
-  --input-default-border-disabled: var(--color-border-disabled);
-  --input-default-ring-focus: var(--color-interactive-primary-focus-ring);
+    /* ── semantic › border-radius ── */
+    --border-radius-xs: var(--radius-1);
+    --border-radius-sm: var(--radius-2);
+    --border-radius-md: var(--radius-3);
+    --border-radius-lg: var(--radius-4);
+    --border-radius-xl: var(--radius-5);
+    --border-radius-full: var(--radius-6);
 
-  /* ── component › input › error ── */
-  --input-error-bg-idle: var(--color-background-default);
-  --input-error-bg-focus: var(--color-background-default);
-  --input-error-text-idle: var(--color-text-primary);
-  --input-error-text-placeholder: var(--color-text-placeholder);
-  --input-error-text-helper: var(--color-text-danger);
-  --input-error-border-idle: var(--color-border-danger);
-  --input-error-border-hover: var(--color-border-danger);
-  --input-error-border-focus: var(--color-border-danger);
-  --input-error-ring-focus: var(--color-interactive-danger-focus-ring);
+    /* ── semantic › border-width ── */
+    --border-width-sm: var(--border-size-1);
+    --border-width-md: var(--border-size-2);
+    --border-width-lg: var(--border-size-3);
 
-  /* ── component › card › default ── */
-  --card-default-bg: var(--color-background-default);
-  --card-default-border: var(--color-border-subtle);
-  --card-default-shadow: var(--shadow-sm);
-  --card-default-radius: var(--border-radius-lg);
-  --card-default-padding: var(--spacing-lg);
+    /* ── semantic › shadow ── */
+    --shadow-sm: var(--shadow-1);
+    --shadow-md: var(--shadow-2);
+    --shadow-lg: var(--shadow-3);
+    --shadow-xl: var(--shadow-4);
+    --shadow-2xl: var(--shadow-5);
+    --shadow-3xl: var(--shadow-6);
 
-  /* ── component › card › primary ── */
-  --card-primary-bg: var(--color-background-primary);
-  --card-primary-border: var(--color-border-primary-subtle);
-  --card-primary-shadow: var(--shadow-sm);
-  --card-primary-radius: var(--border-radius-lg);
-  --card-primary-padding: var(--spacing-lg);
-  --card-primary-text-heading: var(--color-interactive-primary-active);
-  --card-primary-text-body: var(--color-interactive-primary-hover);
+    /* ── component › typography › h1 ── */
+    --typography-h1-font: var(--font-family-sans);
+    --typography-h1-size: var(--font-size-heading-lg);
+    --typography-h1-weight: var(--font-weight-bold);
+    --typography-h1-line-height: var(--line-height-tight);
+    --typography-h1-color: var(--color-neutral-text-default);
+    --typography-h1-letter-spacing: var(--letter-spacing-tight);
 
-  /* ── component › card › danger ── */
-  --card-danger-bg: var(--color-background-danger);
-  --card-danger-border: var(--color-border-danger-subtle);
-  --card-danger-shadow: var(--shadow-sm);
-  --card-danger-radius: var(--border-radius-lg);
-  --card-danger-padding: var(--spacing-lg);
-  --card-danger-text-heading: var(--color-interactive-danger-active);
-  --card-danger-text-body: var(--color-interactive-danger-hover);
+    /* ── component › typography › h2 ── */
+    --typography-h2-font: var(--font-family-sans);
+    --typography-h2-size: var(--font-size-heading-md);
+    --typography-h2-weight: var(--font-weight-bold);
+    --typography-h2-line-height: var(--line-height-tight);
+    --typography-h2-color: var(--color-neutral-text-default);
+    --typography-h2-letter-spacing: var(--letter-spacing-tight);
 
-  /* ── component › badge › primary ── */
-  --badge-primary-bg: var(--color-background-primary);
-  --badge-primary-text: var(--color-interactive-primary-active);
-  --badge-primary-border: var(--color-border-primary-subtle);
+    /* ── component › typography › h3 ── */
+    --typography-h3-font: var(--font-family-sans);
+    --typography-h3-size: var(--font-size-heading-sm);
+    --typography-h3-weight: var(--font-weight-semibold);
+    --typography-h3-line-height: var(--line-height-snug);
+    --typography-h3-color: var(--color-neutral-text-default);
+    --typography-h3-letter-spacing: var(--letter-spacing-tight);
 
-  /* ── component › badge › danger ── */
-  --badge-danger-bg: var(--color-background-danger);
-  --badge-danger-text: var(--color-interactive-danger-hover);
-  --badge-danger-border: var(--color-border-danger-subtle);
+    /* ── component › typography › body ── */
+    --typography-body-font: var(--font-family-sans);
+    --typography-body-size: var(--font-size-body);
+    --typography-body-weight: var(--font-weight-regular);
+    --typography-body-line-height: var(--line-height-normal);
+    --typography-body-color: var(--color-neutral-text-default);
+    --typography-body-letter-spacing: var(--letter-spacing-normal);
 
-  /* ── component › badge › warning ── */
-  --badge-warning-bg: var(--color-background-warning);
-  --badge-warning-text: var(--color-text-warning);
-  --badge-warning-border: var(--color-border-warning);
+    /* ── component › typography › body-sm ── */
+    --typography-body-sm-font: var(--font-family-sans);
+    --typography-body-sm-size: var(--font-size-body-sm);
+    --typography-body-sm-weight: var(--font-weight-regular);
+    --typography-body-sm-line-height: var(--line-height-normal);
+    --typography-body-sm-color: var(--color-neutral-text-soft);
+    --typography-body-sm-letter-spacing: var(--letter-spacing-normal);
 
-  /* ── component › badge › success ── */
-  --badge-success-bg: var(--color-background-success);
-  --badge-success-text: var(--color-text-success);
-  --badge-success-border: var(--color-border-success-subtle);
+    /* ── component › typography › body-lg ── */
+    --typography-body-lg-font: var(--font-family-sans);
+    --typography-body-lg-size: var(--font-size-body-lg);
+    --typography-body-lg-weight: var(--font-weight-regular);
+    --typography-body-lg-line-height: var(--line-height-normal);
+    --typography-body-lg-color: var(--color-neutral-text-default);
+    --typography-body-lg-letter-spacing: var(--letter-spacing-normal);
 
-  /* ── component › badge › information ── */
-  --badge-information-bg: var(--color-background-information);
-  --badge-information-text: var(--color-text-information);
-  --badge-information-border: var(--color-border-information-subtle);
+    /* ── component › typography › link ── */
+    --typography-link-font: var(--font-family-sans);
+    --typography-link-size: var(--font-size-body);
+    --typography-link-weight: var(--font-weight-medium);
+    --typography-link-line-height: var(--line-height-normal);
+    --typography-link-color: var(--color-text-link);
+    --typography-link-letter-spacing: var(--letter-spacing-normal);
 
-  /* ── component › checkbox › primary ── */
-  --checkbox-primary-bg-idle: var(--color-background-default);
-  --checkbox-primary-bg-hover: var(--color-background-primary);
-  --checkbox-primary-bg-checked: var(--color-interactive-primary-default);
-  --checkbox-primary-bg-focus: var(--color-background-default);
-  --checkbox-primary-bg-disabled: var(--color-background-disabled);
-  --checkbox-primary-border-idle: var(--color-border-control);
-  --checkbox-primary-border-hover: var(--color-border-focus);
-  --checkbox-primary-border-checked: var(--color-interactive-primary-default);
-  --checkbox-primary-border-focus: var(--color-border-focus);
-  --checkbox-primary-border-disabled: var(--color-border-disabled);
-  --checkbox-primary-check-idle: transparent;
-  --checkbox-primary-check-checked: var(--color-text-on-primary);
-  --checkbox-primary-check-disabled: var(--color-text-disabled);
-  --checkbox-primary-ring-focus: var(--color-interactive-primary-focus-ring);
+    /* ── component › typography › caption ── */
+    --typography-caption-font: var(--font-family-sans);
+    --typography-caption-size: var(--font-size-xs);
+    --typography-caption-weight: var(--font-weight-regular);
+    --typography-caption-line-height: var(--line-height-normal);
+    --typography-caption-color: var(--color-neutral-text-soft);
+    --typography-caption-letter-spacing: var(--letter-spacing-wide);
 
-  /* ── component › checkbox › danger ── */
-  --checkbox-danger-bg-idle: var(--color-background-default);
-  --checkbox-danger-bg-hover: var(--color-background-danger);
-  --checkbox-danger-bg-checked: var(--color-interactive-danger-default);
-  --checkbox-danger-bg-focus: var(--color-background-default);
-  --checkbox-danger-bg-disabled: var(--color-background-disabled);
-  --checkbox-danger-border-idle: var(--color-border-control);
-  --checkbox-danger-border-hover: var(--color-border-danger);
-  --checkbox-danger-border-checked: var(--color-interactive-danger-default);
-  --checkbox-danger-border-focus: var(--color-border-danger);
-  --checkbox-danger-border-disabled: var(--color-border-disabled);
-  --checkbox-danger-check-idle: transparent;
-  --checkbox-danger-check-checked: var(--color-text-on-primary);
-  --checkbox-danger-check-disabled: var(--color-text-disabled);
-  --checkbox-danger-ring-focus: var(--color-interactive-danger-focus-ring);
+    /* ── component › typography › label ── */
+    --typography-body-sm-font: var(--font-family-sans);
+    --typography-body-sm-size: var(--font-size-body-sm);
+    --typography-body-sm-weight: var(--font-weight-medium);
+    --typography-body-sm-line-height: var(--line-height-snug);
+    --typography-body-sm-color: var(--color-neutral-text-soft);
+    --typography-body-sm-letter-spacing: var(--letter-spacing-normal);
+
+    /* ── component › typography › button ── */
+    --typography-body-sm-font: var(--font-family-sans);
+    --typography-body-sm-size: var(--font-size-body-sm);
+    --typography-body-sm-weight: var(--font-weight-medium);
+    --typography-body-sm-line-height: var(--line-height-snug);
+    --typography-body-sm-color: var(--color-neutral-text-soft);
+    --typography-body-sm-letter-spacing: var(--letter-spacing-normal);
+
+    /* ── component › button › primary ── */
+    /*--button-primary-bg-idle: var(--color-interactive-primary-default);
+    --button-primary-bg-hover: var(--color-interactive-primary-hover);
+    --button-primary-bg-focus: var(--color-interactive-primary-default);
+    --button-primary-bg-active: var(--color-interactive-primary-active);
+    --button-primary-bg-disabled: var(--color-background-disabled);
+    --button-primary-text-idle: var(--color-text-on-primary);
+    --button-primary-text-hover: var(--color-text-on-primary);
+    --button-primary-text-focus: var(--color-text-on-primary);
+    --button-primary-text-active: var(--color-text-on-primary);
+    --button-primary-text-disabled: var(--color-text-disabled);
+    --button-primary-border-idle: var(--color-interactive-primary-default);
+    --button-primary-border-hover: var(--color-interactive-primary-hover);
+    --button-primary-border-focus: var(--color-border-focus);
+    --button-primary-border-active: var(--color-interactive-primary-active);
+    --button-primary-border-disabled: var(--color-border-disabled);
+    --button-primary-ring-focus: var(--color-interactive-primary-focus-ring);*/
+
+    /* ── component › button › danger ── */
+    /*--button-danger-bg-idle: var(--color-interactive-danger-default);
+    --button-danger-bg-hover: var(--color-interactive-danger-hover);
+    --button-danger-bg-focus: var(--color-interactive-danger-default);
+    --button-danger-bg-active: var(--color-interactive-danger-active);
+    --button-danger-bg-disabled: var(--color-background-disabled);
+    --button-danger-text-idle: var(--color-text-on-primary);
+    --button-danger-text-hover: var(--color-text-on-primary);
+    --button-danger-text-focus: var(--color-text-on-primary);
+    --button-danger-text-active: var(--color-text-on-primary);
+    --button-danger-text-disabled: var(--color-text-disabled);
+    --button-danger-border-idle: var(--color-interactive-danger-default);
+    --button-danger-border-hover: var(--color-interactive-danger-hover);
+    --button-danger-border-focus: var(--color-border-danger);
+    --button-danger-border-active: var(--color-interactive-danger-active);
+    --button-danger-border-disabled: var(--color-border-disabled);
+    --button-danger-ring-focus: var(--color-interactive-danger-focus-ring);*/
+
+    /* ── component › button › default ── */
+    /*--button-default-bg-idle: var(--color-interactive-neutral-default);
+    --button-default-bg-hover: var(--color-interactive-neutral-hover);
+    --button-default-bg-focus: var(--color-interactive-neutral-default);
+    --button-default-bg-active: var(--color-interactive-neutral-active);
+    --button-default-bg-disabled: var(--color-background-disabled);
+    --button-default-text-idle: var(--color-text-inverse);
+    --button-default-text-hover: var(--color-text-inverse);
+    --button-default-text-focus: var(--color-text-inverse);
+    --button-default-text-active: var(--color-text-inverse);
+    --button-default-text-disabled: var(--color-text-disabled);
+    --button-default-border-idle: var(--color-interactive-neutral-default);
+    --button-default-border-hover: var(--color-interactive-neutral-hover);
+    --button-default-border-focus: var(--color-border-focus);
+    --button-default-border-active: var(--color-interactive-neutral-active);
+    --button-default-border-disabled: var(--color-border-disabled);
+    --button-default-ring-focus: var(--color-interactive-neutral-focus-ring);
+
+    /* ── component › button › default-outline ── */
+    /*--button-default-outline-bg-idle: var(--color-background-default);
+    --button-default-outline-bg-hover: var(--color-background-subtle);
+    --button-default-outline-bg-focus: var(--color-background-default);
+    --button-default-outline-bg-active: var(--color-background-sunken);
+    --button-default-outline-bg-disabled: var(--color-background-disabled);
+    --button-default-outline-text-idle: var(--color-neutral-text-default);
+    --button-default-outline-text-hover: var(--color-neutral-text-default);
+    --button-default-outline-text-focus: var(--color-neutral-text-default);
+    --button-default-outline-text-active: var(--color-neutral-text-default);
+    --button-default-outline-text-disabled: var(--color-text-disabled);
+    --button-default-outline-border-idle: var(--color-border-strong);
+    --button-default-outline-border-hover: var(
+        --color-interactive-neutral-hover
+    );
+    --button-default-outline-border-focus: var(--color-border-focus);
+    --button-default-outline-border-active: var(
+        --color-interactive-neutral-active
+    );
+    --button-default-outline-border-disabled: var(--color-border-disabled);
+    --button-default-outline-ring-focus: var(
+        --color-interactive-neutral-focus-ring
+    );*/
+
+    /* ── component › button › primary-outline ── */
+    /*--button-primary-outline-bg-idle: transparent;
+    --button-primary-outline-bg-hover: var(--color-background-primary);
+    --button-primary-outline-bg-focus: transparent;
+    --button-primary-outline-bg-active: var(--color-background-primary);
+    --button-primary-outline-bg-disabled: var(--color-background-disabled);
+    --button-primary-outline-text-idle: var(
+        --color-interactive-primary-default
+    );
+    --button-primary-outline-text-hover: var(--color-interactive-primary-hover);
+    --button-primary-outline-text-focus: var(
+        --color-interactive-primary-default
+    );
+    --button-primary-outline-text-active: var(
+        --color-interactive-primary-active
+    );
+    --button-primary-outline-text-disabled: var(--color-text-disabled);
+    --button-primary-outline-border-idle: var(
+        --color-interactive-primary-default
+    );
+    --button-primary-outline-border-hover: var(
+        --color-interactive-primary-hover
+    );
+    --button-primary-outline-border-focus: var(--color-border-focus);
+    --button-primary-outline-border-active: var(
+        --color-interactive-primary-active
+    );
+    --button-primary-outline-border-disabled: var(--color-border-disabled);
+    --button-primary-outline-ring-focus: var(
+        --color-interactive-primary-focus-ring
+    );*/
+
+    /* ── component › button › link ── */
+    /*--button-link-bg-idle: transparent;
+    --button-link-bg-hover: transparent;
+    --button-link-bg-focus: transparent;
+    --button-link-bg-active: transparent;
+    --button-link-bg-disabled: transparent;
+    --button-link-text-idle: var(--color-text-link);
+    --button-link-text-hover: var(--color-text-link-hover);
+    --button-link-text-focus: var(--color-text-link);
+    --button-link-text-active: var(--color-text-link-hover);
+    --button-link-text-disabled: var(--color-text-disabled);
+    --button-link-border-idle: transparent;
+    --button-link-border-hover: transparent;
+    --button-link-border-focus: var(--color-border-focus);
+    --button-link-border-active: transparent;
+    --button-link-border-disabled: transparent;
+    --button-link-ring-focus: var(--color-interactive-primary-focus-ring);*/
+
+    /* ── component › button › ghost ── */
+    /*--button-ghost-bg-idle: transparent;
+    --button-ghost-bg-hover: var(--color-background-subtle);
+    --button-ghost-bg-focus: transparent;
+    --button-ghost-bg-active: var(--color-background-sunken);
+    --button-ghost-bg-disabled: transparent;
+    --button-ghost-text-idle: var(--color-neutral-text-soft);
+    --button-ghost-text-hover: var(--color-neutral-text-default);
+    --button-ghost-text-focus: var(--color-neutral-text-soft);
+    --button-ghost-text-active: var(--color-neutral-text-default);
+    --button-ghost-text-disabled: var(--color-text-disabled);
+    --button-ghost-border-idle: transparent;
+    --button-ghost-border-hover: transparent;
+    --button-ghost-border-focus: var(--color-border-focus);
+    --button-ghost-border-active: transparent;
+    --button-ghost-border-disabled: transparent;
+    --button-ghost-ring-focus: var(--color-interactive-neutral-focus-ring);*/
+
+    /* ── component › input › default ── */
+    /*--input-default-bg-idle: var(--color-background-default);
+    --input-default-bg-focus: var(--color-background-default);
+    --input-default-bg-disabled: var(--color-background-subtle);
+    --input-default-text-idle: var(--color-neutral-text-default);
+    --input-default-text-placeholder: var(--color-text-placeholder);
+    --input-default-text-disabled: var(--color-text-disabled);
+    --input-default-border-idle: var(--color-border-input);
+    --input-default-border-hover: var(--color-border-strong);
+    --input-default-border-focus: var(--color-border-focus);
+    --input-default-border-disabled: var(--color-border-disabled);
+    --input-default-ring-focus: var(--color-interactive-primary-focus-ring);*/
+
+    /* ── component › input › error ── */
+    /*--input-error-bg-idle: var(--color-background-default);
+    --input-error-bg-focus: var(--color-background-default);
+    --input-error-text-idle: var(--color-neutral-text-default);
+    --input-error-text-placeholder: var(--color-text-placeholder);
+    --input-error-text-helper: var(--color-text-danger);
+    --input-error-border-idle: var(--color-border-danger);
+    --input-error-border-hover: var(--color-border-danger);
+    --input-error-border-focus: var(--color-border-danger);
+    --input-error-ring-focus: var(--color-interactive-danger-focus-ring);*/
+
+    /* ── component › card › default ── */
+    /*--card-default-bg: var(--color-background-default);
+    --card-default-border: var(--color-border-subtle);
+    --card-default-shadow: var(--shadow-sm);
+    --card-default-radius: var(--border-radius-xs);
+    --card-default-padding: var(--spacing-lg);*/
+
+    /* ── component › card › primary ── */
+    /*--card-primary-bg: var(--color-background-primary);
+    --card-primary-border: var(--color-border-primary-subtle);
+    --card-primary-text-heading: var(--color-interactive-primary-active);
+    --card-primary-text-body: var(--color-interactive-primary-hover);*/
+
+    /* ── component › card › danger ── */
+    /*--card-danger-bg: var(--color-background-danger);
+    --card-danger-border: var(--color-border-danger-subtle);
+    --card-danger-text-heading: var(--color-interactive-danger-active);
+    --card-danger-text-body: var(--color-interactive-danger-hover);*/
+
+    /* ── component › badge › primary ── */
+    /*--badge-primary-bg: var(--color-background-primary);
+    --badge-primary-text: var(--color-interactive-primary-active);
+    --badge-primary-border: var(--color-border-primary-subtle);*/
+
+    /* ── component › badge › danger ── */
+    /*--badge-danger-bg: var(--color-background-danger);
+    --badge-danger-text: var(--color-interactive-danger-hover);
+    --badge-danger-border: var(--color-border-danger-subtle);*/
+
+    /* ── component › badge › warning ── */
+    /*--badge-warning-bg: var(--color-background-warning);
+    --badge-warning-text: var(--color-text-warning);
+    --badge-warning-border: var(--color-border-warning);*/
+
+    /* ── component › badge › success ── */
+    /*--badge-success-bg: var(--color-background-success);
+    --badge-success-text: var(--color-text-success);
+    --badge-success-border: var(--color-border-success-subtle);*/
+
+    /* ── component › badge › information ── */
+    /*--badge-information-bg: var(--color-background-information);
+    --badge-information-text: var(--color-text-information);
+    --badge-information-border: var(--color-border-information-subtle);*/
+
+    /* ── component › checkbox › primary ── */
+    /*--checkbox-primary-bg-idle: var(--color-background-default);
+    --checkbox-primary-bg-hover: var(--color-background-primary);
+    --checkbox-primary-bg-checked: var(--color-interactive-primary-default);
+    --checkbox-primary-bg-focus: var(--color-background-default);
+    --checkbox-primary-bg-disabled: var(--color-background-disabled);
+    --checkbox-primary-border-idle: var(--color-border-control);
+    --checkbox-primary-border-hover: var(--color-border-focus);
+    --checkbox-primary-border-checked: var(--color-interactive-primary-default);
+    --checkbox-primary-border-focus: var(--color-border-focus);
+    --checkbox-primary-border-disabled: var(--color-border-disabled);
+    --checkbox-primary-check-idle: transparent;
+    --checkbox-primary-check-checked: var(--color-text-on-primary);
+    --checkbox-primary-check-disabled: var(--color-text-disabled);
+    --checkbox-primary-ring-focus: var(--color-interactive-primary-focus-ring);*/
+
+    /* ── component › checkbox › danger ── */
+    /*--checkbox-danger-bg-idle: var(--color-background-default);
+    --checkbox-danger-bg-hover: var(--color-background-danger);
+    --checkbox-danger-bg-checked: var(--color-interactive-danger-default);
+    --checkbox-danger-bg-focus: var(--color-background-default);
+    --checkbox-danger-bg-disabled: var(--color-background-disabled);
+    --checkbox-danger-border-idle: var(--color-border-control);
+    --checkbox-danger-border-hover: var(--color-border-danger);
+    --checkbox-danger-border-checked: var(--color-interactive-danger-default);
+    --checkbox-danger-border-focus: var(--color-border-danger);
+    --checkbox-danger-border-disabled: var(--color-border-disabled);
+    --checkbox-danger-check-idle: transparent;
+    --checkbox-danger-check-checked: var(--color-text-on-primary);
+    --checkbox-danger-check-disabled: var(--color-text-disabled);
+    --checkbox-danger-ring-focus: var(--color-interactive-danger-focus-ring);*/
 }
