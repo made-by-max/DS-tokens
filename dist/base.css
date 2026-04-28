@@ -235,27 +235,30 @@
         0 100px 80px -2px hsl(var(--shadow-color) / var(--shadow-strength-8));
 
     /* ── semantic › color › surface ── */
-    --color-neutral-surface-default:
-        hsl(var(--neutral-0-hsl)),
-        --color-neutral-surface-subtle: hsl(var(--neutral-1-hsl)),
-        --color-neutral-surface-raised: hsl(var(--neutral-0-hsl)),
-        --color-neutral-surface-sunken: hsl(var(--neutral-2-hsl)),
-        --color-neutral-surface-overlay: hsl(var(--neutral-12-hsl) / 0.6),
-        --color-neutral-surface-inverse: hsl(var(--neutral-12-hsl)),
-        --color-neutral-surface-disabled: hsl(var(--neutral-2-hsl))
-            /* ── semantic › color › background ── */
-            --color-neutral-bg-default: hsl(var(--neutral-10-hsl));
+    --color-neutral-surface-default: hsl(var(--neutral-0-hsl));
+    --color-neutral-surface-subtle: hsl(var(--neutral-1-hsl));
+    --color-neutral-surface-raised: hsl(var(--neutral-0-hsl));
+    --color-neutral-surface-sunken: hsl(var(--neutral-2-hsl));
+    --color-neutral-surface-overlay: hsl(var(--neutral-12-hsl) / 0.6);
+    --color-neutral-surface-inverse: hsl(var(--neutral-12-hsl));
+    --color-neutral-surface-disabled: hsl(var(--neutral-2-hsl));
+
+    /* ── semantic › color › background ── */
+    --color-neutral-bg-default: hsl(var(--neutral-10-hsl));
     --color-neutral-bg-hover: hsl(var(--neutral-11-hsl));
     --color-neutral-bg-focus-ring: hsl(var(--neutral-4-hsl));
     --color-neutral-bg-active: hsl(var(--neutral-12-hsl));
     /*diabled buttons, card bg, outline badge bg- use for all buttons except ghost & link*/
     --color-neutral-bg-weak: hsl(var(--neutral-0-hsl));
+    --color-neutral-bg-disabled: hsl(var(--neutral-2-hsl));
+    --color-neutral-bg-subtle: hsl(var(--neutral-1-hsl));
 
     --color-brand-bg-default: hsl(var(--indigo-9-hsl));
     --color-brand-bg-hover: hsl(var(--indigo-10-hsl));
     --color-brand-bg-focus-ring: hsl(var(--indigo-4-hsl));
     --color-brand-bg-active: hsl(var(--indigo-11-hsl));
     --color-brand-bg-weak: hsl(var(--indigo-1-hsl));
+    --color-brand-bg-subtle: hsl(var(--indigo-2-hsl));
 
     --color-danger-bg-default: hsl(var(--red-9-hsl));
     --color-danger-bg-hover: hsl(var(--red-10-hsl));
@@ -270,9 +273,10 @@
     --color-warning-bg-weak: hsl(var(--yewllow-1-hsl));
 
     --color-information-bg-default: hsl(var(--blue-9-hsl));
-    --color-information-bg-weak: hsl(var(--blue-1-hsl))
-        /* ── semantic › color › text ── */
-        --color-neutral-text-default: hsl(var(--neutral-12-hsl));
+    --color-information-bg-weak: hsl(var(--blue-1-hsl));
+
+    /* ── semantic › color › text ── */
+    --color-neutral-text-default: hsl(var(--neutral-12-hsl));
     --color-neutral-text-soft: hsl(var(--neutral-9-hsl));
     /*placeholder*/
     --color-neutral-text-softer: hsl(var(--neutral-7-hsl));
@@ -312,9 +316,12 @@
 
     --color-brand-border-subtle: hsl(var(--indigo-2-hsl));
     --color-brand-border-default: hsl(var(--indigo-7-hsl));
+    --color-brand-border-strong: hsl(var(--indigo-9-hsl));
+    --color-brand-border-control: hsl(var(--indigo-5-hsl));
 
     --color-danger-border-subtle: hsl(var(--red-2-hsl));
     --color-danger-border-default: hsl(var(--red-7-hsl));
+    --color-danger-border-strong: hsl(var(--red-9-hsl));
 
     --color-success-border-subtle: hsl(var(--green-2-hsl));
     --color-success-border-default: hsl(var(--green-8-hsl));
@@ -403,7 +410,7 @@
     --font-family-mono: var(--font-monospace);
 
     /* ── semantic › font-size ── */
-    --font-size-caption: var(--font-size-00);
+    --font-size-xs: var(--font-size-00);
     --font-size-body-sm: var(--font-size-0);
     --font-size-body: var(--font-size-1);
     --font-size-body-lg: var(--font-size-2);

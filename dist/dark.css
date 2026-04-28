@@ -240,7 +240,7 @@
         0 100px 80px -2px hsl(var(--shadow-color) / var(--shadow-strength-8));
 
     /* ── semantic › color › background ── */
-    --color-background-default: hsl(var(--neutral-11-hsl));
+    /*--color-background-default: hsl(var(--neutral-11-hsl));
     --color-background-subtle: hsl(var(--neutral-10-hsl));
     --color-background-raised: hsl(var(--neutral-9-hsl));
     --color-background-sunken: hsl(var(--neutral-12-hsl));
@@ -251,13 +251,13 @@
     --color-background-danger: hsl(var(--red-10-hsl));
     --color-background-success: hsl(var(--green-10-hsl));
     --color-background-warning: hsl(var(--yellow-10-hsl));
-    --color-background-information: hsl(var(--blue-10-hsl));
+    --color-background-information: hsl(var(--blue-10-hsl));*/
 
     /* ── semantic › color › text ── */
-    --color-text-primary: hsl(var(--neutral-0-hsl));
-    --color-text-secondary: hsl(var(--neutral-3-hsl));
+    /*--color-text-primary: hsl(var(--neutral-0-hsl));
+    --color-text-secondary: hsl(var(--neutral-3-hsl));*/
     --color-neutral-text-softer: hsl(var(--neutral-5-hsl));
-    --color-text-placeholder: hsl(var(--neutral-6-hsl));
+    /*--color-text-placeholder: hsl(var(--neutral-6-hsl));
     --color-text-disabled: hsl(var(--neutral-7-hsl));
     --color-text-inverse: hsl(var(--neutral-12-hsl));
     --color-text-on-primary: hsl(var(--neutral-12-hsl));
@@ -266,10 +266,10 @@
     --color-text-danger: hsl(var(--red-3-hsl));
     --color-text-success: hsl(var(--green-3-hsl));
     --color-text-warning: hsl(var(--yellow-2-hsl));
-    --color-text-information: hsl(var(--blue-3-hsl));
+    --color-text-information: hsl(var(--blue-3-hsl));*/
 
     /* ── semantic › color › border ── */
-    --color-border-subtle: hsl(var(--neutral-9-hsl));
+    /*--color-border-subtle: hsl(var(--neutral-9-hsl));
     --color-border-default: hsl(var(--neutral-8-hsl));
     --color-border-strong: hsl(var(--neutral-6-hsl));
     --color-border-disabled: hsl(var(--neutral-9-hsl));
@@ -283,10 +283,10 @@
     --color-border-success-subtle: hsl(var(--green-7-hsl));
     --color-border-information-subtle: hsl(var(--blue-8-hsl));
     --color-border-control: hsl(var(--neutral-7-hsl));
-    --color-border-input: hsl(var(--neutral-8-hsl));
+    --color-border-input: hsl(var(--neutral-8-hsl));*/
 
     /* ── semantic › color › interactive ── */
-    --color-interactive-primary-default: hsl(var(--indigo-5-hsl));
+    /*--color-interactive-primary-default: hsl(var(--indigo-5-hsl));
     --color-interactive-primary-hover: hsl(var(--indigo-4-hsl));
     --color-interactive-primary-active: hsl(var(--indigo-2-hsl));
     --color-interactive-primary-focus-ring: hsl(var(--indigo-9-hsl));
@@ -309,7 +309,7 @@
     --color-interactive-neutral-default: hsl(var(--neutral-4-hsl));
     --color-interactive-neutral-hover: hsl(var(--neutral-3-hsl));
     --color-interactive-neutral-active: hsl(var(--neutral-1-hsl));
-    --color-interactive-neutral-focus-ring: hsl(var(--neutral-8-hsl));
+    --color-interactive-neutral-focus-ring: hsl(var(--neutral-8-hsl));*/
 
     /* ── semantic › spacing ── */
     --spacing-xs: var(--size-1);
@@ -326,7 +326,7 @@
     --font-family-mono: var(--font-monospace);
 
     /* ── semantic › font-size ── */
-    --font-size-caption: var(--font-size-00);
+    --font-size-xs: var(--font-size-00);
     --font-size-body-sm: var(--font-size-0);
     --font-size-body: var(--font-size-1);
     --font-size-body-lg: var(--font-size-2);
@@ -458,7 +458,7 @@
     --typography-body-sm-letter-spacing: var(--letter-spacing-normal);
 
     /* ── component › button › primary ── */
-    --button-primary-bg-idle: var(--color-interactive-primary-default);
+    /*--button-primary-bg-idle: var(--color-interactive-primary-default);
     --button-primary-bg-hover: var(--color-interactive-primary-hover);
     --button-primary-bg-focus: var(--color-interactive-primary-default);
     --button-primary-bg-active: var(--color-interactive-primary-active);
@@ -473,10 +473,10 @@
     --button-primary-border-focus: var(--color-border-focus);
     --button-primary-border-active: var(--color-interactive-primary-active);
     --button-primary-border-disabled: var(--color-border-disabled);
-    --button-primary-ring-focus: var(--color-interactive-primary-focus-ring);
+    --button-primary-ring-focus: var(--color-interactive-primary-focus-ring);*/
 
     /* ── component › button › danger ── */
-    --button-danger-bg-idle: var(--color-interactive-danger-default);
+    /*--button-danger-bg-idle: var(--color-interactive-danger-default);
     --button-danger-bg-hover: var(--color-interactive-danger-hover);
     --button-danger-bg-focus: var(--color-interactive-danger-default);
     --button-danger-bg-active: var(--color-interactive-danger-active);
@@ -491,10 +491,10 @@
     --button-danger-border-focus: var(--color-border-danger);
     --button-danger-border-active: var(--color-interactive-danger-active);
     --button-danger-border-disabled: var(--color-border-disabled);
-    --button-danger-ring-focus: var(--color-interactive-danger-focus-ring);
+    --button-danger-ring-focus: var(--color-interactive-danger-focus-ring);*/
 
     /* ── component › button › default ── */
-    --button-default-bg-idle: var(--color-interactive-neutral-default);
+    /*--button-default-bg-idle: var(--color-interactive-neutral-default);
     --button-default-bg-hover: var(--color-interactive-neutral-hover);
     --button-default-bg-focus: var(--color-interactive-neutral-default);
     --button-default-bg-active: var(--color-interactive-neutral-active);
@@ -509,10 +509,10 @@
     --button-default-border-focus: var(--color-border-focus);
     --button-default-border-active: var(--color-interactive-neutral-active);
     --button-default-border-disabled: var(--color-border-disabled);
-    --button-default-ring-focus: var(--color-interactive-neutral-focus-ring);
+    --button-default-ring-focus: var(--color-interactive-neutral-focus-ring);*/
 
     /* ── component › button › default-outline ── */
-    --button-default-outline-bg-idle: var(--color-background-default);
+    /*--button-default-outline-bg-idle: var(--color-background-default);
     --button-default-outline-bg-hover: var(--color-background-subtle);
     --button-default-outline-bg-focus: var(--color-background-default);
     --button-default-outline-bg-active: var(--color-background-sunken);
@@ -533,10 +533,10 @@
     --button-default-outline-border-disabled: var(--color-border-disabled);
     --button-default-outline-ring-focus: var(
         --color-interactive-neutral-focus-ring
-    );
+    );*/
 
     /* ── component › button › primary-outline ── */
-    --button-primary-outline-bg-idle: transparent;
+    /*--button-primary-outline-bg-idle: transparent;
     --button-primary-outline-bg-hover: var(--color-background-primary);
     --button-primary-outline-bg-focus: transparent;
     --button-primary-outline-bg-active: var(--color-background-primary);
@@ -565,10 +565,10 @@
     --button-primary-outline-border-disabled: var(--color-border-disabled);
     --button-primary-outline-ring-focus: var(
         --color-interactive-primary-focus-ring
-    );
+    );*/
 
     /* ── component › button › link ── */
-    --button-link-bg-idle: transparent;
+    /*--button-link-bg-idle: transparent;
     --button-link-bg-hover: transparent;
     --button-link-bg-focus: transparent;
     --button-link-bg-active: transparent;
@@ -583,10 +583,10 @@
     --button-link-border-focus: var(--color-border-focus);
     --button-link-border-active: transparent;
     --button-link-border-disabled: transparent;
-    --button-link-ring-focus: var(--color-interactive-primary-focus-ring);
+    --button-link-ring-focus: var(--color-interactive-primary-focus-ring);*/
 
     /* ── component › button › ghost ── */
-    --button-ghost-bg-idle: transparent;
+    /*--button-ghost-bg-idle: transparent;
     --button-ghost-bg-hover: var(--color-background-subtle);
     --button-ghost-bg-focus: transparent;
     --button-ghost-bg-active: var(--color-background-sunken);
@@ -601,10 +601,10 @@
     --button-ghost-border-focus: var(--color-border-focus);
     --button-ghost-border-active: transparent;
     --button-ghost-border-disabled: transparent;
-    --button-ghost-ring-focus: var(--color-interactive-neutral-focus-ring);
+    --button-ghost-ring-focus: var(--color-interactive-neutral-focus-ring);*/
 
     /* ── component › input › default ── */
-    --input-default-bg-idle: var(--color-background-default);
+    /*--input-default-bg-idle: var(--color-background-default);
     --input-default-bg-focus: var(--color-background-default);
     --input-default-bg-disabled: var(--color-background-subtle);
     --input-default-text-idle: var(--color-text-primary);
@@ -614,10 +614,10 @@
     --input-default-border-hover: var(--color-border-strong);
     --input-default-border-focus: var(--color-border-focus);
     --input-default-border-disabled: var(--color-border-disabled);
-    --input-default-ring-focus: var(--color-interactive-primary-focus-ring);
+    --input-default-ring-focus: var(--color-interactive-primary-focus-ring);*/
 
     /* ── component › input › error ── */
-    --input-error-bg-idle: var(--color-background-default);
+    /*--input-error-bg-idle: var(--color-background-default);
     --input-error-bg-focus: var(--color-background-default);
     --input-error-text-idle: var(--color-text-primary);
     --input-error-text-placeholder: var(--color-text-placeholder);
@@ -625,60 +625,60 @@
     --input-error-border-idle: var(--color-border-danger);
     --input-error-border-hover: var(--color-border-danger);
     --input-error-border-focus: var(--color-border-danger);
-    --input-error-ring-focus: var(--color-interactive-danger-focus-ring);
+    --input-error-ring-focus: var(--color-interactive-danger-focus-ring);*/
 
     /* ── component › card › default ── */
-    --card-default-bg: var(--color-background-default);
+    /*--card-default-bg: var(--color-background-default);
     --card-default-border: var(--color-border-subtle);
     --card-default-shadow: var(--shadow-sm);
     --card-default-radius: var(--border-radius-lg);
-    --card-default-padding: var(--spacing-lg);
+    --card-default-padding: var(--spacing-lg);*/
 
     /* ── component › card › primary ── */
-    --card-primary-bg: var(--color-background-primary);
+    /*--card-primary-bg: var(--color-background-primary);
     --card-primary-border: var(--color-border-primary-subtle);
     --card-primary-shadow: var(--shadow-sm);
     --card-primary-radius: var(--border-radius-lg);
     --card-primary-padding: var(--spacing-lg);
     --card-primary-text-heading: var(--color-interactive-primary-active);
-    --card-primary-text-body: var(--color-interactive-primary-hover);
+    --card-primary-text-body: var(--color-interactive-primary-hover);*/
 
     /* ── component › card › danger ── */
-    --card-danger-bg: var(--color-background-danger);
+    /*--card-danger-bg: var(--color-background-danger);
     --card-danger-border: var(--color-border-danger-subtle);
     --card-danger-shadow: var(--shadow-sm);
     --card-danger-radius: var(--border-radius-lg);
     --card-danger-padding: var(--spacing-lg);
     --card-danger-text-heading: var(--color-interactive-danger-active);
-    --card-danger-text-body: var(--color-interactive-danger-hover);
+    --card-danger-text-body: var(--color-interactive-danger-hover);*/
 
     /* ── component › badge › primary ── */
-    --badge-primary-bg: var(--color-background-primary);
+    /*--badge-primary-bg: var(--color-background-primary);
     --badge-primary-text: var(--color-interactive-primary-active);
-    --badge-primary-border: var(--color-border-primary-subtle);
+    --badge-primary-border: var(--color-border-primary-subtle);*/
 
     /* ── component › badge › danger ── */
-    --badge-danger-bg: var(--color-background-danger);
+    /*--badge-danger-bg: var(--color-background-danger);
     --badge-danger-text: var(--color-interactive-danger-hover);
-    --badge-danger-border: var(--color-border-danger-subtle);
+    --badge-danger-border: var(--color-border-danger-subtle);*/
 
     /* ── component › badge › warning ── */
-    --badge-warning-bg: var(--color-background-warning);
+    /*--badge-warning-bg: var(--color-background-warning);
     --badge-warning-text: var(--color-text-warning);
-    --badge-warning-border: var(--color-border-warning);
+    --badge-warning-border: var(--color-border-warning);*/
 
     /* ── component › badge › success ── */
-    --badge-success-bg: var(--color-background-success);
+    /*--badge-success-bg: var(--color-background-success);
     --badge-success-text: var(--color-text-success);
-    --badge-success-border: var(--color-border-success-subtle);
+    --badge-success-border: var(--color-border-success-subtle);*/
 
     /* ── component › badge › information ── */
-    --badge-information-bg: var(--color-background-information);
+    /*--badge-information-bg: var(--color-background-information);
     --badge-information-text: var(--color-text-information);
-    --badge-information-border: var(--color-border-information-subtle);
+    --badge-information-border: var(--color-border-information-subtle);*/
 
     /* ── component › checkbox › primary ── */
-    --checkbox-primary-bg-idle: var(--color-background-default);
+    /*--checkbox-primary-bg-idle: var(--color-background-default);
     --checkbox-primary-bg-hover: var(--color-background-primary);
     --checkbox-primary-bg-checked: var(--color-interactive-primary-default);
     --checkbox-primary-bg-focus: var(--color-background-default);
@@ -691,10 +691,10 @@
     --checkbox-primary-check-idle: transparent;
     --checkbox-primary-check-checked: var(--color-text-on-primary);
     --checkbox-primary-check-disabled: var(--color-text-disabled);
-    --checkbox-primary-ring-focus: var(--color-interactive-primary-focus-ring);
+    --checkbox-primary-ring-focus: var(--color-interactive-primary-focus-ring);*/
 
     /* ── component › checkbox › danger ── */
-    --checkbox-danger-bg-idle: var(--color-background-default);
+    /*--checkbox-danger-bg-idle: var(--color-background-default);
     --checkbox-danger-bg-hover: var(--color-background-danger);
     --checkbox-danger-bg-checked: var(--color-interactive-danger-default);
     --checkbox-danger-bg-focus: var(--color-background-default);
@@ -707,5 +707,5 @@
     --checkbox-danger-check-idle: transparent;
     --checkbox-danger-check-checked: var(--color-text-on-primary);
     --checkbox-danger-check-disabled: var(--color-text-disabled);
-    --checkbox-danger-ring-focus: var(--color-interactive-danger-focus-ring);
+    --checkbox-danger-ring-focus: var(--color-interactive-danger-focus-ring);*/
 }
